@@ -1,0 +1,355 @@
+fcidcode,FCID_Desc,GHG_se,CED_se,GHG_record_basis,CED_record_basis
+101052000,"Beet, sugar",0.332457192067813,4.51673994358002,"direct: Beet, sugar","direct: Beet, sugar"
+101053000,"Beet, sugar, molasses",0.244668218243039,3.43216037881314,"direct: Beet, sugar, molasses","direct: Beet, sugar, molasses"
+1500124000,"Corn, field, syrup",0.982781976979087,13.2078706581137,proxy: corn_starch,proxy: corn_starch
+9500186000,Honey,4.15164131549337,4.81770984307495,direct: Honey,direct: Honey
+9500219000,Maple syrup,11.4926573205745,136.985343186288,direct: Maple syrup,direct: Maple syrup
+9500218000,"Maple, sugar",15.6300139559813,186.300066733352,proxy: Maple_syrup,proxy: Maple_syrup
+1500345000,"Sorghum, syrup",0.829647666161709,10.0297267810051,proxy: sugarcane_molasses,proxy: sugarcane_molasses
+9500363000,"Sugarcane, molasses",0.829647666161709,10.0297267810051,"direct: Sugarcane, molasses","direct: Sugarcane, molasses"
+9500362000,"Sugarcane, sugar",0.842109939722199,7.18554273333935,"direct: Sugarcane, sugar","direct: Sugarcane, sugar"
+9500116000,"Coffee, instant",16.3484650884331,92.9188926668953,"direct: Coffee, instant","direct: Coffee, instant"
+9500115000,"Coffee, roasted bean",4.36542121500371,27.0323456124122,"direct: Coffee, roasted bean","direct: Coffee, roasted bean"
+9500372000,"Tea, dried",1.09427195067808,22.3654255868284,"direct: Tea, dried","direct: Tea, dried"
+9500373000,"Tea, instant",3.17338865696644,64.8597342018025,proxy: tea,proxy: tea
+3600223000,"Milk, nonfat solids",0.910920606471097,14.3007996382294,"direct: Fluid Milk, Cow","direct: Fluid Milk, Cow"
+3600224000,"Milk, water",0.0,0.0,"direct: Fluid Milk, Cow","direct: Fluid Milk, Cow"
+600349000,"Soybean, soy milk",0.0974450006128814,0.0798852050000001,"direct: Soybean, soy milk","direct: Soybean, soy milk"
+1100009000,"Apple, dried",0.221488043822392,1.95396995019115,proxy: apple,proxy: apple
+1100007000,"Apple, fruit with peel",0.0399758908362366,0.352667747107671,"direct: Apple, fruit with peel","direct: Apple, fruit with peel"
+1100008000,"Apple, peeled fruit",0.0468186108892861,0.413034298414389,proxy: apple,proxy: apple
+1100011000,"Apple, sauce",0.0504200424961543,0.444806167523188,proxy: apple,proxy: apple
+1202012000,Apricot,0.404255195259878,0.350600616750249,direct: Apricot,proxy: tree_fruit
+1202013000,"Apricot, dried",0.159595867739495,1.77248089579293,proxy: tree_fruit,proxy: tree_fruit
+2402020000,Avocado,0.44089140118872,4.15121818939483,direct: Avocado,direct: Avocado
+902021000,Balsam pear,0.274023465449492,0.321523037355081,proxy: cucumber,proxy: cucumber
+2402023000,Banana,0.0242729632424751,0.646915439360836,direct: Banana,direct: Banana
+2402024000,"Banana, dried",0.0939799346054805,2.50472388060221,proxy: banana,proxy: banana
+1301055000,Blackberry,0.096158524985851,1.19881079979982,proxy: berry,proxy: berry
+1302057000,Blueberry,0.173528791507486,1.37855346737801,direct: Blueberry,direct: Blueberry
+1301058000,Boysenberry,0.096158524985851,1.19881079979982,proxy: berry,proxy: berry
+2403060000,Breadfruit,0.201447230356224,0.925784617101039,proxy: tropical_fruit,proxy: tropical_fruit
+901075000,Cantaloupe,0.675839148706114,1.09532181392298,direct: Cantaloupe,proxy: melon
+902088000,"Chayote, fruit",0.274023465449492,0.321523037355081,proxy: cucumber,proxy: cucumber
+1201090000,Cherry,0.11857476713028,2.69776713552406,direct: Cherry,direct: Cherry
+1001106000,Citron,0.0879679313824185,0.527115842212235,proxy: citrus,proxy: citrus
+1001107000,Citrus hybrids,0.0593783536831325,0.355803193493259,proxy: citrus,proxy: citrus
+1400112000,"Coconut, dried",0.761915834872118,2.76771919869795,proxy: coconut_meat,proxy: coconut_meat
+1400111000,"Coconut, meat",0.799455506604291,2.90408500894968,"direct: Coconut, meat","direct: Coconut, meat"
+1307130000,Cranberry,0.992079223533508,1.17575674595752,direct: Cranberry,proxy: berry
+1307131000,"Cranberry, dried",0.614043116738846,7.65529130150016,proxy: berry,proxy: berry
+1302137000,"Currant, dried",0.338185438276347,15.6998106666092,proxy: grape_raisin,proxy: grape_raisin
+2303141000,Date,1.63239466740287,9.52294894745443,direct: Date,direct: Date
+2302153000,Fig,0.158954455202958,0.730501924431288,proxy: tropical_fruit,proxy: tropical_fruit
+2302154000,"Fig, dried",0.531946592659405,2.44465000453243,proxy: tropical_fruit,proxy: tropical_fruit
+1302174000,Gooseberry,0.58777440243204,1.15270269211521,direct: Gooseberry,proxy: berry
+1304175000,Grape,0.193033594492115,1.5609369572683,direct: Grape,direct: Grape
+1304178000,"Grape, raisin",0.338185438276347,15.6998106666092,"direct: Grape, raisin","direct: Grape, raisin"
+1003180000,Grapefruit,0.608686300272209,0.527115842212235,direct: Grapefruit,proxy: citrus
+2302183000,Guava,3.67453852206083,0.925784617101039,direct: Guava,proxy: tropical_fruit
+901187000,Honeydew melon,0.392083254699361,1.21267772255758,direct: Honeydew melon,direct: Honeydew melon
+1302191000,Huckleberry,0.097083126187638,1.21033782672097,proxy: berry,proxy: berry
+1304195000,"Kiwifruit, fuzzy",0.0630198024186811,3.50520922791786,"direct: Kiwifruit, fuzzy","direct: Kiwifruit, fuzzy"
+1002197000,Kumquat,0.047502682946506,0.284642554794607,proxy: citrus,proxy: citrus
+1002199000,Lemon,0.173371568980893,0.809364298630821,direct: Lemon,direct: Lemon
+1002201000,"Lemon, peel",0.0439839656912093,0.263557921106118,proxy: citrus,proxy: citrus
+1002206000,Lime,0.435386117106036,0.316269505327341,direct: Lime,proxy: citrus
+2401211000,Lychee,0.262825683355386,1.20785961762401,proxy: tropical_fruit,proxy: tropical_fruit
+2402215000,Mango,1.03128671784226,1.04874038655977,direct: Mango,proxy: tropical_fruit
+2402216000,"Mango, dried",0.793563851444845,3.64695610386877,proxy: tropical_fruit,proxy: tropical_fruit
+1303227000,Mulberry,0.096158524985851,1.19881079979982,proxy: berry,proxy: berry
+1202230000,Nectarine,0.032153013647151,0.357093220764143,proxy: tree_fruit,proxy: tree_fruit
+1001240000,Orange,0.0320900620690549,0.45591251033571,direct: Orange,direct: Orange
+1001242000,"Orange, peel",0.023423402970113,0.332782854259642,proxy: orange,proxy: orange
+2402245000,Papaya,0.348391215960009,1.26525485573562,direct: Papaya,direct: Papaya
+2402246000,"Papaya, dried",2.50186980588731,9.08605835998063,proxy: papaya,proxy: papaya
+2405252000,Passionfruit,0.201447230356224,0.925784617101039,proxy: tropical_fruit,proxy: tropical_fruit
+1202260000,Peach,0.0669792451151137,1.13669478471576,direct: Peach,direct: Peach
+1202261000,"Peach, dried",0.410891907533101,6.97318531392936,proxy: peach,proxy: peach
+1100266000,Pear,0.0546387409642758,0.997336636893482,direct: Pear,direct: Pear
+1100267000,"Pear, dried",0.246120454794035,4.49250737339406,proxy: pear,proxy: pear
+2402277000,Persimmon,0.034783714763736,0.386309938826664,proxy: tree_fruit,proxy: tree_fruit
+2403279000,Pineapple,1.04190204421873,3.59055784978787,direct: Pineapple,direct: Pineapple
+2403280000,"Pineapple, dried",5.15635195353145,17.7695975219093,proxy: pineapple,proxy: pineapple
+1203285000,Plum,0.289450954766853,0.344108012736356,direct: Plum,proxy: tree_fruit
+1203287000,"Plum, prune, dried",0.16748797108925,1.86013104998049,proxy: tree_fruit,proxy: tree_fruit
+1203286000,"Plum, prune, fresh",0.0309838131508909,0.344108012736356,proxy: tree_fruit,proxy: tree_fruit
+2402289000,Pomegranate,0.0523217222076366,0.581088059243469,proxy: tree_fruit,proxy: tree_fruit
+1301320000,Raspberry,0.117054906751332,2.09249979486633,direct: Raspberry,direct: Raspberry
+2403346000,Soursop,0.234497166586542,1.07767115584418,proxy: tropical_fruit,proxy: tropical_fruit
+1307359000,Strawberry,0.124952784304531,2.05913044233114,direct: Strawberry,direct: Strawberry
+2302368000,Tamarind,0.462699107224453,2.12641154240395,proxy: tropical_fruit,proxy: tropical_fruit
+1001369000,Tangerine,0.0593783536831325,0.355803193493259,proxy: citrus,proxy: citrus
+901399000,Watermelon,1.54931667576223,1.07296830751638,direct: Watermelon,proxy: melon
+1100010000,"Apple, juice",0.0540214741030224,0.476578036631987,proxy: apple,proxy: apple
+1202014000,"Apricot, juice",0.0476449202225964,0.529147227132321,proxy: tree_fruit,proxy: tree_fruit
+1301056000,"Blackberry, juice",0.120198156232314,1.49851349974978,proxy: berry,proxy: berry
+1201091000,"Cherry, juice",0.141419447036113,3.21752043686356,proxy: cherry,proxy: cherry
+1307132000,"Cranberry, juice",0.120198156232314,1.49851349974978,proxy: berry,proxy: berry
+1304176000,"Grape, juice",0.241291993115143,1.95117119658538,proxy: Grape,proxy: Grape
+1003181000,"Grapefruit, juice",0.0989639228052208,0.593005322488764,proxy: citrus,proxy: citrus
+1002200000,"Lemon, juice",0.235905288288173,1.46815965114548,"direct: Lemon, juice","direct: Lemon, juice"
+1002207000,"Lime, juice",0.14294788849643,0.856563243594882,proxy: citrus,proxy: citrus
+2402217000,"Mango, juice",0.295875619585704,1.35974615636715,proxy: tropical_fruit,proxy: tropical_fruit
+1001241000,"Orange, juice",0.121844453414998,0.964197579909491,"direct: Orange, juice","direct: Orange, juice"
+2402247000,"Papaya, juice",0.348391215960009,1.26525485573562,proxy: papaya,proxy: papaya
+2405253000,"Passionfruit, juice",0.295875619585704,1.35974615636715,proxy: tropical_fruit,proxy: tropical_fruit
+1202262000,"Peach, juice",0.10497708609388,1.78155047989104,proxy: peach,proxy: peach
+1100268000,"Pear, juice",0.0738361364382105,1.34775221201822,proxy: pear,proxy: pear
+2403281000,"Pineapple, juice",0.999375430168982,3.44400446816387,proxy: pineapple,proxy: pineapple
+1203288000,"Plum, prune, juice",0.0476449202225964,0.529147227132321,proxy: tree_fruit,proxy: tree_fruit
+2402290000,"Pomegranate, juice",0.104643444415273,1.16217611848694,proxy: tree_fruit,proxy: tree_fruit
+1301321000,"Raspberry, juice",0.0924601201787028,1.15270269211521,proxy: berry,proxy: berry
+1307360000,"Strawberry, juice",0.153243980750839,2.52534865568914,proxy: strawberry,proxy: strawberry
+1001370000,"Tangerine, juice",0.0879679313824185,0.527115842212235,proxy: citrus,proxy: citrus
+901400000,"Watermelon, juice",0.810301348197037,1.07296830751638,proxy: melon,proxy: melon
+1500120000,"Corn, field, flour",0.0928743253893028,1.88257049679544,"direct: Corn, field, flour","direct: Corn, field, flour"
+1500123000,"Corn, field, starch",0.128335431447037,2.85631385720688,"direct: Corn, field, starch","direct: Corn, field, starch"
+1500325000,"Rice, flour",0.22909563137394,1.75192659594024,proxy: rice_bran,proxy: rice_bran
+1500323000,"Rice, white",0.573437786382792,1.54649585541832,"direct: Rice, white","direct: Rice, white"
+1500402000,"Wheat, flour",0.034892604053916,0.444941862336156,"direct: Wheat, flour","direct: Wheat, flour"
+9500006000,"Amaranth, grain",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1500027000,"Barley, bran",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1500026000,"Barley, flour",0.034892604053916,0.444941862336156,proxy: wheat_flour,proxy: wheat_flour
+1500025000,"Barley, pearled barley",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1500065000,Buckwheat,0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1500122000,"Corn, field, bran",0.0928743253893028,1.88257049679544,proxy: corn_flour,proxy: corn_flour
+1500121000,"Corn, field, meal",0.0928743253893028,1.88257049679544,proxy: corn_flour,proxy: corn_flour
+1500126000,"Corn, pop",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1500226000,"Millet, grain",0.243203275743024,0.212907550152921,"direct: Millet, grain",proxy: grains
+1500231000,"Oat, bran",0.0595090404636769,1.07545441028474,proxy: oat_flour,proxy: oat_flour
+1500232000,"Oat, flour",0.0595090404636769,1.07545441028474,"direct: Oat, flour","direct: Oat, flour"
+1500233000,"Oat, groats/rolled oats",0.122590621405052,0.733773062786137,"direct: Oat, groats/rolled oats","direct: Oat, groats/rolled oats"
+1500326000,"Rice, bran",0.22909563137394,1.75192659594024,"direct: Rice, bran","direct: Rice, bran"
+1500324000,"Rice, brown",0.476357736917485,0.727505631898782,"direct: Rice, brown","direct: Rice, brown"
+1500329000,"Rye, flour",0.0407305714556762,0.739961029805951,"direct: Rye, flour","direct: Rye, flour"
+1500328000,"Rye, grain",0.0408585699465205,0.296231938517589,"direct: Rye, grain","direct: Rye, grain"
+1500381000,"Triticale, flour",0.034892604053916,0.444941862336156,proxy: wheat_flour,proxy: wheat_flour
+1500404000,"Wheat, bran",0.034892604053916,0.444941862336156,proxy: wheat_flour,proxy: wheat_flour
+1500403000,"Wheat, germ",0.034892604053916,0.444941862336156,proxy: wheat_flour,proxy: wheat_flour
+1500401000,"Wheat, grain",0.0431506420949221,0.363652548924499,"direct: Wheat, grain","direct: Wheat, grain"
+1500405000,Wild rice,0.345983085340832,0.679906327775621,proxy: rice,proxy: rice
+1800002000,"Alfalfa, seed",3.23408611360405,3.7799514685504,proxy: clover_seed,proxy: clover_seed
+603035000,"Bean,  great northern, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+603030000,"Bean, black, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+603032000,"Bean, broad, seed",1.02108545600982,1.93874505773378,"direct: Bean, broad, seed",proxy: bean_dry
+602031000,"Bean, broad, succulent",0.376516956154164,2.97248222383335,proxy: Bean_snap_succulent,proxy: Bean_snap_succulent
+603034000,"Bean, cowpea, seed",0.75442584223992,1.93874505773378,"direct: Bean, cowpea, seed",proxy: bean_dry
+602033000,"Bean, cowpea, succulent",0.376516956154164,2.97248222383335,proxy: Bean_snap_succulent,proxy: Bean_snap_succulent
+603036000,"Bean, kidney, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+603038000,"Bean, lima, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+602037000,"Bean, lima, succulent",0.376516956154164,2.97248222383335,proxy: Bean_snap_succulent,proxy: Bean_snap_succulent
+603039000,"Bean, mung, seed",1.6444111693386,0.538293433593625,proxy: lentil_seed,proxy: lentil_seed
+603040000,"Bean, navy, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+603041000,"Bean, pink, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+603042000,"Bean, pinto, seed",0.126886456409955,1.93874505773378,proxy: bean_dry,proxy: bean_dry
+601043000,"Bean, snap, succulent",0.351653923355209,3.38862973517001,"direct: Bean, snap, succulent","direct: Bean, snap, succulent"
+2302077000,Carob,0.1573806487158,0.723269232110186,proxy: tropical_fruit,proxy: tropical_fruit
+603098000,"Chickpea, seed",0.607745670289667,0.889681036356959,"direct: Chickpea, seed","direct: Chickpea, seed"
+603182000,"Guar, seed",1.73146914612441,0.538293433593625,"direct: Guar, seed",proxy: lentil_seed
+603203000,"Lentil, seed",1.6444111693386,0.538293433593625,"direct: Lentil, seed","direct: Lentil, seed"
+603256000,"Pea, dry",0.185085180361414,0.601772616120896,"direct: Pea, dry","direct: Pea, dry"
+601257000,"Pea, edible podded, succulent",0.399107973523413,3.15083115726335,proxy: Bean_snap_succulent,proxy: Bean_snap_succulent
+603258000,"Pea, pigeon, seed",1.30342523792894,1.86030505969196,"direct: Pea, pigeon, seed","direct: Pea, pigeon, seed"
+602259000,"Pea, pigeon, succulent",1.79944624495357,2.67282340509004,proxy: Pea_pigeon_seed,proxy: Pea_pigeon_seed
+602255000,"Pea, succulent",0.621986066296237,2.89912046541935,"direct: Pea, succulent","direct: Pea, succulent"
+600348000,"Soybean, flour",0.0685007251589538,0.961845839452809,proxy: soybean_meal,proxy: soybean_meal
+600347000,"Soybean, seed",0.713785787853029,0.782816403709398,"direct: Soybean, seed","direct: Soybean, seed"
+1400004000,"Almond, oil",0.414177068213229,14.2967288952726,proxy: almond,proxy: almond
+1400114000,"Coconut, oil",0.886131738843182,5.98754177977831,"direct: Coconut, oil","direct: Coconut, oil"
+1500125000,"Corn, field, oil",0.594901991478751,5.11495579140893,"direct: Corn, field, oil","direct: Corn, field, oil"
+2003128000,"Cottonseed, oil",1.50119455797003,11.8289720171915,"direct: Cottonseed, oil","direct: Cottonseed, oil"
+2001163000,"Flax seed, oil",0.818642079042535,4.03177172450224,proxy: oilseed_oil,proxy: oilseed_oil
+2301236000,"Olive, oil",1.29845537540281,5.2978955055154,"direct: Olive, oil","direct: Olive, oil"
+9500244000,"Palm, oil",2.53259612771943,2.77332303284254,"direct: Palm, oil","direct: Palm, oil"
+9500265000,"Peanut, oil",2.30946908243397,1.50646089239647,"direct: Peanut, oil","direct: Peanut, oil"
+9500276000,"Peppermint, oil",1.10544215286118,3.27702825272641,proxy: coconut_oil,proxy: coconut_oil
+2001319000,"Rapeseed, oil",1.1284689429405,6.35708941442886,"direct: Rapeseed, oil","direct: Rapeseed, oil"
+2002330000,"Safflower, oil",0.818642079042535,4.03177172450224,proxy: oilseed_oil,proxy: oilseed_oil
+2001337000,"Sesame, oil",0.818642079042535,4.03177172450224,proxy: oilseed_oil,proxy: oilseed_oil
+600350000,"Soybean, oil",0.566020497633111,2.56881554792501,"direct: Soybean, oil","direct: Soybean, oil"
+2002365000,"Sunflower, oil",1.85614990672369,2.76363898245199,"direct: Sunflower, oil","direct: Sunflower, oil"
+9500186100,Bee pollen,4.15164131549337,4.81770984307495,proxy: honey,proxy: honey
+9500109000,"Cocoa bean, chocolate",5.34607290142088,43.7071830068579,"direct: Cocoa bean, chocolate","direct: Cocoa bean, chocolate"
+9500110000,"Cocoa bean, powder",23.3925544324037,1.56773826413736,"direct: Cocoa bean, powder","direct: Cocoa bean, powder"
+1400113000,"Coconut, milk",0.416383076356402,1.51254427549462,proxy: coconut_meat,proxy: coconut_meat
+1304179000,"Grape, wine and sherry",0.119351160377906,0.307491377686865,"direct: Grape, wine and sherry",proxy: beer
+9500188000,Hops,1.64436886394678,1.50090092045029,direct: Hops,proxy: Grape
+9500390000,Vinegar,0.0540214741030224,0.476578036631987,proxy: apple,proxy: apple
+7000146000,"Egg, white",0.37302879652295,1.49918360730099,"direct: Eggs, chicken","direct: Eggs, chicken"
+7000145000,"Egg, whole",0.37302879652295,1.49918360730099,"direct: Eggs, chicken","direct: Eggs, chicken"
+7000147000,"Egg, yolk",0.37302879652295,1.49918360730099,"direct: Eggs, chicken","direct: Eggs, chicken"
+1400003000,Almond,0.414177068213229,14.2967288952726,direct: Almond,direct: Almond
+1400059000,Brazil nut,0.39058007858735,4.97022260430094,proxy: nut,proxy: nut
+1400068000,Butternut,0.39058007858735,4.97022260430094,proxy: nut,proxy: nut
+1400081000,Cashew,2.62827052790276,4.97022260430094,direct: Cashew,proxy: nut
+1400092000,Chestnut,0.667153447064093,6.16307602933317,direct: Chestnut,proxy: nut
+2001162900,"Flax, seed",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+1400155000,Hazelnut,0.637481744585273,24.7503893274115,direct: Hazelnut,direct: Hazelnut
+1400213000,Macadamia nut,0.39058007858735,4.97022260430094,proxy: nut,proxy: nut
+9500263000,Peanut,0.0617065636703261,0.628403531382248,direct: Peanut,direct: Peanut
+9500264000,"Peanut, butter",0.808537907460936,1.70841877312287,"direct: Peanut, butter",proxy: soybean_meal
+1400269000,Pecan,0.39058007858735,4.97022260430094,proxy: nut,proxy: nut
+1400278000,Pine nut,0.39058007858735,4.97022260430094,proxy: nut,proxy: nut
+1400282000,Pistachio,1.63205213793746,5.11932928242997,direct: Pistachio,proxy: nut
+9500306000,"Psyllium, seed",0.0303530838110733,0.212907550152921,proxy: grains,proxy: grains
+902309000,"Pumpkin, seed",0.0430229810697655,0.389744777179668,proxy: squash,proxy: squash
+2001336000,"Sesame, seed",0.54332646708548,0.212907550152921,"direct: Sesame, seed",proxy: grains
+2002364000,"Sunflower, seed",0.0653031195206706,0.415617516671416,"direct: Sunflower, seed","direct: Sunflower, seed"
+1400391000,Walnut,0.871183089564886,4.97022260430094,direct: Walnut,proxy: nut
+4000094000,"Chicken, liver",0.406599591575935,2.95544081162533,direct: chicken,direct: chicken
+4000093000,"Chicken, meat",0.406599591575935,2.95544081162533,direct: chicken,direct: chicken
+4000095000,"Chicken, meat byproducts",0.406599591575935,2.95544081162533,direct: chicken,direct: chicken
+4000097000,"Chicken, skin",0.406599591575935,2.95544081162533,direct: chicken,direct: chicken
+6000302000,"Poultry, other, liver",0.695297136412311,5.12391226749361,"direct: Poultry, other","direct: Poultry, other"
+6000301000,"Poultry, other, meat",0.695297136412311,5.12391226749361,"direct: Poultry, other","direct: Poultry, other"
+6000303000,"Poultry, other, meat byproducts",0.695297136412311,5.12391226749361,"direct: Poultry, other","direct: Poultry, other"
+6000305000,"Poultry, other, skin",0.695297136412311,5.12391226749361,"direct: Poultry, other","direct: Poultry, other"
+5000383000,"Turkey, liver",1.4122950652541,2.95544081162533,direct: Turkey,proxy: chicken
+5000382000,"Turkey, meat",1.4122950652541,2.95544081162533,direct: Turkey,proxy: chicken
+5000384000,"Turkey, meat byproducts",1.4122950652541,2.95544081162533,direct: Turkey,proxy: chicken
+5000386000,"Turkey, skin",1.4122950652541,2.95544081162533,direct: Turkey,proxy: chicken
+3100049000,"Beef, liver",1.29411779174172,8.98942158092445,direct: beef,direct: beef
+3100044000,"Beef, meat",1.29411779174172,8.98942158092445,direct: beef,direct: beef
+3100046000,"Beef, meat byproducts",1.29411779174172,8.98942158092445,direct: beef,direct: beef
+3100045000,"Beef, meat, dried",1.78588255260358,12.4054017816757,direct: beef,direct: beef
+3200169000,"Goat, meat",6.10231446650813,8.39378056801571,proxy: Sheep,proxy: Sheep
+3200170000,"Goat, meat byproducts",6.10231446650813,8.39378056801571,proxy: Sheep,proxy: Sheep
+3800221000,"Meat, game",0.320050825412123,4.90559885569755,"direct: Meat, game","direct: Meat, game"
+3400295000,"Pork, liver",0.224804636171187,1.67139177484018,direct: pork,direct: pork
+3400290000,"Pork, meat",0.224804636171187,1.67139177484018,direct: pork,direct: pork
+3400292000,"Pork, meat byproducts",0.224804636171187,1.67139177484018,direct: pork,direct: pork
+3400291000,"Pork, skin",0.224804636171187,1.67139177484018,direct: pork,direct: pork
+3900312000,"Rabbit, meat",2.49396899363879,23.120583422485,"direct: Rabbit, meat","direct: Rabbit, meat"
+3500343000,"Sheep, liver",6.10231446650813,8.39378056801571,direct: Sheep,direct: Sheep
+3500339000,"Sheep, meat",6.10231446650813,8.39378056801571,direct: Sheep,direct: Sheep
+3500340000,"Sheep, meat byproducts",6.10231446650813,8.39378056801571,direct: Sheep,direct: Sheep
+8000157000,Fish-freshwater finfish,2.13044819449163,20.9712179055503,direct: Fish-freshwater finfish,direct: Fish-freshwater finfish
+8000158000,"Fish-freshwater finfish, farm raised",0.951964733339226,34.6865403761757,"direct: Fish-freshwater finfish, farm raised","direct: Fish-freshwater finfish, farm raised"
+8000160000,"Fish-saltwater finfish, other",0.943329254760092,62.3241428119737,"direct: Fish-saltwater finfish, other","direct: Fish-saltwater finfish, other"
+8000159000,"Fish-saltwater finfish, tuna",0.0951297263005881,1.42535017006765,"direct: Fish-saltwater finfish, tuna","direct: Fish-saltwater finfish, tuna"
+8000161000,"Fish-shellfish, crustacean",7.55071209104732,107.296919881099,"direct: Fish-shellfish, crustacean","direct: Fish-shellfish, crustacean"
+8000162000,"Fish-shellfish, mollusc",1.18571982188036,31.2078041284202,"direct: Fish-shellfish, mollusc",proxy: all_fish
+3100047000,"Beef, fat",1.29411779174172,8.98942158092445,direct: beef,direct: beef
+4000096000,"Chicken, fat",0.406599591575935,2.95544081162533,direct: chicken,direct: chicken
+3200171000,"Goat, fat",6.10231446650813,8.39378056801571,proxy: Sheep,proxy: Sheep
+3600222000,"Milk, fat",0.910920606471097,14.3007996382294,"direct: Fluid Milk, Cow","direct: Fluid Milk, Cow"
+3400293000,"Pork, fat",0.224804636171187,1.67139177484018,direct: pork,direct: pork
+6000304000,"Poultry, other, fat",0.695297136412311,5.12391226749361,"direct: Poultry, other","direct: Poultry, other"
+3500341000,"Sheep, fat",6.10231446650813,8.39378056801571,direct: Sheep,direct: Sheep
+5000385000,"Turkey, fat",1.4122950652541,2.95544081162533,direct: Turkey,proxy: chicken
+401005000,"Amaranth, leafy",0.0208582004639436,0.480592620491557,proxy: greens,proxy: greens
+402018000,Arugula,0.0348331947747859,0.802589676220901,proxy: greens,proxy: greens
+2201019000,Asparagus,0.564808368872452,8.35810649261712,direct: Asparagus,direct: Asparagus
+200051000,"Beet, garden, tops",0.0373361788304591,0.860260790679888,proxy: greens,proxy: greens
+500061000,Broccoli,0.139767441654953,0.847911013768618,direct: Broccoli,direct: Broccoli
+402062000,"Broccoli, Chinese",0.0852240497896056,0.517018910834523,proxy: broccoli,proxy: broccoli
+500064000,Brussels sprouts,0.0764185610375575,0.559212499299911,proxy: brassica,proxy: brassica
+402070000,"Cabbage, Chinese, bok choy",0.0709845690636966,0.238194758173206,proxy: brassica_greens,proxy: brassica_greens
+402117000,Collards,0.108967540229359,0.365649848072904,proxy: brassica_greens,proxy: brassica_greens
+402133000,"Cress, garden",0.0294100626541605,0.677635594893096,proxy: greens,proxy: greens
+401150000,Endive,0.0196497302395395,0.42050368020994,proxy: Escarole,proxy: Escarole
+2201152000,"Fennel, Florence",0.399677956345257,4.871545006061,proxy: celery,proxy: celery
+9500177000,"Grape, leaves",0.0208582004639436,0.480592620491557,proxy: greens,proxy: greens
+402194000,Kale,0.102077321057947,0.342529131684219,direct: Kale,direct: Kale
+2201196000,Kohlrabi,0.149394844550901,1.0932352463791,proxy: brassica,proxy: brassica
+402229000,Mustard greens,0.0672485391129757,0.225658191953563,proxy: brassica_greens,proxy: brassica_greens
+2201243000,"Palm heart, leaves",0.1573806487158,0.723269232110186,proxy: tropical_fruit,proxy: tropical_fruit
+401248000,"Parsley, leaves",0.0705911411603954,0.556846744102923,proxy: spinach,proxy: spinach
+401355000,Spinach,0.0934492249647139,0.737159023145774,direct: Spinach,direct: Spinach
+401367000,Swiss chard,0.0227354385056986,0.523845956335798,proxy: greens,proxy: greens
+402389000,"Turnip, greens",0.0889530940647827,0.298489671896248,proxy: brassica_greens,proxy: brassica_greens
+402398000,Watercress,0.0227354385056986,0.523845956335798,proxy: greens,proxy: greens
+103017000,"Artichoke, Jerusalem",0.111143602113473,0.57526296996406,proxy: potato,proxy: potato
+9500016000,"Artichoke, globe",1.0213976120035,14.019318250635,"direct: Artichoke, globe","direct: Artichoke, globe"
+2201022000,"Bamboo, shoots",0.298840406810821,4.42227856752229,proxy: asparagus,proxy: asparagus
+1901029000,"Basil, dried leaves",0.759085498983981,5.98792258712091,proxy: spinach,proxy: spinach
+1901028000,"Basil, fresh leaves",0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+9500054000,Belgium endive,0.0194125783228554,0.415428635793613,proxy: Escarole,proxy: Escarole
+500069000,Cabbage,0.113182643918938,0.734989577207663,direct: Cabbage,direct: Cabbage
+500072000,"Cabbage, Chinese, mustard",0.0672485391129757,0.225658191953563,proxy: brassica_greens,proxy: brassica_greens
+500071000,"Cabbage, Chinese, napa",0.0709845690636966,0.238194758173206,proxy: brassica_greens,proxy: brassica_greens
+2201073000,Cactus,0.352787591559615,0.723620468168669,proxy: cucumber,proxy: cucumber
+500083000,Cauliflower,0.394565279595261,1.66454700624014,direct: Cauliflower,direct: Cauliflower
+2202085000,Celery,0.399677956345257,4.871545006061,direct: Celery,direct: Celery
+2202086000,"Celery, juice",1.78427659082704,21.747968777058,proxy: celery,proxy: celery
+101100000,"Chicory, roots",0.0300744446541029,0.0441002215981137,"direct: Chicory, roots","direct: Chicory, roots"
+200101000,"Chicory, tops",0.0194125783228554,0.415428635793613,proxy: Escarole,proxy: Escarole
+902102000,Chinese waxgourd,0.061092633119067,0.553437583595129,proxy: squash,proxy: squash
+302103000,"Chive, fresh leaves",0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+401118000,"Cilantro, leaves",0.0793309967326348,0.625789674325189,proxy: spinach,proxy: spinach
+1902105000,Cinnamon,0.636599104677506,0.0,direct: Cinnamon,direct: Cinnamon
+1902119000,"Coriander, seed",0.450143543814749,0.0,proxy: spices,proxy: spices
+902135000,Cucumber,0.282244169412977,0.331168728475733,direct: Cucumber,direct: Cucumber
+401138000,"Dandelion, leaves",0.0169394226202927,0.362503172594776,proxy: Escarole,proxy: Escarole
+200140000,"Dasheen, leaves",0.0208582004639436,0.480592620491557,proxy: greens,proxy: greens
+1902143000,"Dill, seed",0.450143543814749,0.0,proxy: spices,proxy: spices
+401144000,Dillweed,0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+802148000,Eggplant,0.265931371047868,0.534999393816021,proxy: nightshades,proxy: nightshades
+301165000,"Garlic, bulb",0.27546406009502,0.698725466187721,"direct: Garlic, bulb",proxy: onion_bulb
+103166000,Ginger,0.801294766882252,0.165801945479077,direct: Ginger,proxy: roots
+103167000,"Ginger, dried",0.164807043118106,0.703123065087196,proxy: roots,proxy: roots
+101168000,"Ginseng, dried",0.450143543814749,0.0,proxy: spices,proxy: spices
+1901184000,"Herbs, other",0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+101190000,Horseradish,0.0359840705498048,0.153520319888034,proxy: roots,proxy: roots
+302198000,Leek,0.0313511487215976,0.607587361902367,direct: Leek,proxy: onion_bulb
+401204000,"Lettuce, head",0.0834277698026765,1.23459625127079,"direct: Lettuce, head","direct: Lettuce, head"
+401205000,"Lettuce, leaf",0.0307122224144319,0.741546842755061,"direct: Lettuce, leaf","direct: Lettuce, leaf"
+1901220000,Marjoram,0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+2100228000,Mushroom,0.741257400132075,2.38473649636286,direct: Mushroom,direct: Mushroom
+802234000,Okra,0.250797065378477,0.504552273842751,proxy: nightshades,proxy: nightshades
+2301235000,Olive,0.108013003706131,2.12054845729362,direct: Olive,direct: Olive
+301237000,"Onion, bulb",0.0652221956996069,0.674421971711627,"direct: Onion, bulb","direct: Onion, bulb"
+301238000,"Onion, bulb, dried",0.510495888502869,5.27871900020776,proxy: onion_bulb,proxy: onion_bulb
+302239000,"Onion, green",0.0320765402596494,0.222400186114726,proxy: carrot,proxy: carrot
+1901249000,"Parsley, dried leaves",0.514807415599582,4.06097462803875,proxy: spinach,proxy: spinach
+101251000,Parsnip,0.0410218404267775,0.175013164672359,proxy: roots,proxy: roots
+1902274000,"Pepper, black and white",0.636599104677506,0.0,"direct: Pepper, black and white",proxy: spices
+802272000,"Pepper, nonbell",2.0188930212488,3.28561784135347,"direct: Pepper, nonbell",proxy: pepper_bell
+802273000,"Pepper, nonbell, dried",7.79811274752945,27.5475975211,proxy: pepper_bell,proxy: pepper_bell
+9500275000,Peppermint,0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+401313000,Radicchio,0.0186333648823219,0.398753489854253,proxy: Escarole,proxy: Escarole
+101316000,"Radish, Oriental, roots",0.0456997695982522,0.194970806257803,proxy: roots,proxy: roots
+101314000,"Radish, roots",0.0399423183102834,0.170407555075718,proxy: roots,proxy: roots
+2202322000,Rhubarb,0.397457741058392,5.88163049480464,proxy: asparagus,proxy: asparagus
+101327000,Rutabaga,0.0424612032487697,0.18115397746788,proxy: roots,proxy: roots
+1901334000,Savory,0.0672296582479957,0.530330232478974,proxy: spinach,proxy: spinach
+9500335000,Seaweed,0.0208582004639436,0.480592620491557,proxy: greens,proxy: greens
+301338000,"Shallot, bulb",0.0667499228060842,0.690219243121088,proxy: onion_bulb,proxy: onion_bulb
+1902354000,"Spices, other",0.450143543814749,0.0,proxy: spices,proxy: spices
+902356000,"Squash, summer",1.69442529425604,0.0740146031991396,"direct: Squash, summer",proxy: zucchini
+801374000,Tomatillo,0.237824803376142,0.478454742437092,proxy: tomato,proxy: tomato
+103387000,Turmeric,0.0359840705498048,0.153520319888034,proxy: roots,proxy: roots
+101388000,"Turnip, roots",0.296982607232315,0.188829993462282,"direct: Turnip, roots",proxy: roots
+101050000,"Beet, garden, roots",0.115806225945754,0.493201214679374,"direct: Beet, garden, roots","direct: Beet, garden, roots"
+101078000,Carrot,0.026037049295187,0.319590071835782,direct: Carrot,direct: Carrot
+101079000,"Carrot, juice",0.0345439664334686,0.239507892738935,proxy: carrot,proxy: carrot
+802270000,"Pepper, bell",0.937772060323897,3.31277170781094,"direct: Pepper, bell","direct: Pepper, bell"
+802271000,"Pepper, bell, dried",9.37618327199253,33.1222863048179,proxy: pepper_bell,proxy: pepper_bell
+902308000,Pumpkin,0.13947025887646,1.05092101352632,direct: Pumpkin,direct: Pumpkin
+103366000,Sweet potato,0.039842973008843,0.261835954598553,proxy: potato,proxy: potato
+801375000,Tomato,0.237824803376142,0.478454742437092,direct: Tomato,direct: Tomato
+801378000,"Tomato, dried",3.69277058333136,7.42909727347775,proxy: tomato,proxy: tomato
+801379000,"Tomato, juice",0.125990096342969,1.3744397662041,"direct: Tomato, juice","direct: Tomato, juice"
+801376000,"Tomato, paste",0.0973036111242059,0.773190092531593,"direct: Tomato, paste","direct: Tomato, paste"
+801377000,"Tomato, puree",0.241707398303316,1.11832007823136,"direct: Tomato, puree","direct: Tomato, puree"
+103015000,"Arrowroot, flour",0.0133063578921401,0.202863200085716,proxy: cassava,proxy: cassava
+101067000,Burdock,0.0478588138312404,0.204182025451085,proxy: roots,proxy: roots
+103082000,Cassava,0.0664373186345975,0.252457624221629,direct: Cassava,direct: Cassava
+1500127000,"Corn, sweet",0.646327670643688,2.75095020347049,"direct: Corn, sweet","direct: Corn, sweet"
+103139000,"Dasheen, corm",0.0359840705498048,0.153520319888034,proxy: roots,proxy: roots
+2402283000,Plantain,0.579263584664498,0.638621651676723,direct: Plantain,proxy: banana
+2402284000,"Plantain, dried",0.0491216313823678,1.30917438593728,proxy: banana,proxy: banana
+103296000,"Potato, chips",0.484893333017419,7.97766092540348,"direct: Potato, chips","direct: Potato, chips"
+103297000,"Potato, dry (granules/ flakes)",0.172557336340457,1.38523323167346,proxy: potato,proxy: potato
+103298000,"Potato, flour",0.366129751092581,1.89395729316215,"direct: Potato, flour","direct: Potato, flour"
+103300000,"Potato, tuber, w/o peel",0.0830746202908871,0.250533683177033,"direct: Potato, tuber, w/o peel",proxy: potato
+103299000,"Potato, tuber, w/peel",0.0286640093588798,0.188371190358672,"direct: Potato, tuber, w/peel","direct: Potato, tuber, w/peel"
+902357000,"Squash, winter",0.0174418196843105,0.518111408766473,"direct: Squash, winter","direct: Squash, winter"
+103371000,"Tanier, corm",0.0359840705498048,0.153520319888034,proxy: roots,proxy: roots
+9500397000,Water chestnut,0.0467792917147463,0.199576415854444,proxy: roots,proxy: roots
+103407000,Yam bean,0.031243770201179,0.25081465490433,proxy: potato,proxy: potato
+103406000,"Yam, true",0.860649934799456,0.266922018063324,"direct: Yam, true",proxy: potato
+8601200000,"Water, direct, bottled",0.000751267922576094,0.0125548516165967,"direct: Water, direct, bottled","direct: Water, direct, bottled"
+8601100000,"Water, direct, tap",3.82894983952028e-05,0.00058971309050563,"direct: Water, direct, tap","direct: Water, direct, tap"
+8602000000,"Water, indirect, all sources",0.0,0.0,proxy: nan,proxy: nan
