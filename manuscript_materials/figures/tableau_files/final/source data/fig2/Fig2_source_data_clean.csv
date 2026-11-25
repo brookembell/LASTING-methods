@@ -1,0 +1,596 @@
+﻿Food Category,Food Group,Diet Pattern,Outcome,Yearly Median Impact,Lower Bound,Upper Bound
+Dairy,"Dairy, total",CDP,CMD (deaths),0,0,0
+Dairy,"Dairy, total",MED,CMD (deaths),0,0,0
+Dairy,"Dairy, total",HUS,CMD (deaths),0,0,0
+Dairy,"Dairy, total",VEG,CMD (deaths),0,0,0
+Dairy,"Dairy, total",VGN,CMD (deaths),0,0,0
+Fruit,Whole fruits,CDP,CMD (deaths),-68322.55026,-62546.22648,-74385.01813
+Fruit,Whole fruits,MED,CMD (deaths),-64532.1084,-59042.04955,-70300.96463
+Fruit,Whole fruits,HUS,CMD (deaths),-45945.01479,-41943.05223,-50138.33821
+Fruit,Whole fruits,VEG,CMD (deaths),-45945.01479,-41943.05223,-50138.33821
+Fruit,Whole fruits,VGN,CMD (deaths),-45945.01479,-41943.05223,-50138.33821
+Fruit,"Fruit juice, 100%",CDP,CMD (deaths),0,0,0
+Fruit,"Fruit juice, 100%",MED,CMD (deaths),0,0,0
+Fruit,"Fruit juice, 100%",HUS,CMD (deaths),0,0,0
+Fruit,"Fruit juice, 100%",VEG,CMD (deaths),0,0,0
+Fruit,"Fruit juice, 100%",VGN,CMD (deaths),0,0,0
+Grains,Refined grains,CDP,CMD (deaths),0,0,0
+Grains,Refined grains,MED,CMD (deaths),0,0,0
+Grains,Refined grains,HUS,CMD (deaths),0,0,0
+Grains,Refined grains,VEG,CMD (deaths),0,0,0
+Grains,Refined grains,VGN,CMD (deaths),0,0,0
+Grains,Whole grains,CDP,CMD (deaths),-53812.91187,-48750.70172,-58722.9299
+Grains,Whole grains,MED,CMD (deaths),-53812.91187,-48750.70172,-58722.9299
+Grains,Whole grains,HUS,CMD (deaths),-53812.91187,-48750.70172,-58722.9299
+Grains,Whole grains,VEG,CMD (deaths),-53812.91187,-48750.70172,-58722.9299
+Grains,Whole grains,VGN,CMD (deaths),-53812.91187,-48750.70172,-58722.9299
+Protein,Legumes,CDP,CMD (deaths),-25804.19039,-23854.19842,-27760.0127
+Protein,Legumes,MED,CMD (deaths),-8662.194581,-7720.970532,-9633.87791
+Protein,Legumes,HUS,CMD (deaths),-8662.194581,-7720.970532,-9633.87791
+Protein,Legumes,VEG,CMD (deaths),-42364.81902,-39376.83402,-45354.50139
+Protein,Legumes,VGN,CMD (deaths),-42364.81902,-39376.83402,-45354.50139
+Other,Oil,CDP,CMD (deaths),0,0,0
+Other,Oil,MED,CMD (deaths),0,0,0
+Other,Oil,HUS,CMD (deaths),0,0,0
+Other,Oil,VEG,CMD (deaths),0,0,0
+Other,Oil,VGN,CMD (deaths),0,0,0
+Protein,Eggs,CDP,CMD (deaths),0,0,0
+Protein,Eggs,MED,CMD (deaths),0,0,0
+Protein,Eggs,HUS,CMD (deaths),0,0,0
+Protein,Eggs,VEG,CMD (deaths),0,0,0
+Protein,Eggs,VGN,CMD (deaths),0,0,0
+Protein,Nuts & seeds,CDP,CMD (deaths),-68826.50725,-60500.26184,-76783.30085
+Protein,Nuts & seeds,MED,CMD (deaths),-18774.14463,-12847.85648,-25154.24609
+Protein,Nuts & seeds,HUS,CMD (deaths),-18774.14463,-12847.85648,-25154.24609
+Protein,Nuts & seeds,VEG,CMD (deaths),-68826.50725,-60500.26184,-76783.30085
+Protein,Nuts & seeds,VGN,CMD (deaths),-68826.38271,-60500.18695,-76783.29708
+Protein,Processed meats,CDP,CMD (deaths),-65565.63046,-56318.37343,-74521.90668
+Protein,Processed meats,MED,CMD (deaths),-19527.95535,-15540.16252,-23795.97278
+Protein,Processed meats,HUS,CMD (deaths),-19527.95535,-15540.16252,-23795.97278
+Protein,Processed meats,VEG,CMD (deaths),-65565.63046,-56318.37343,-74521.90668
+Protein,Processed meats,VGN,CMD (deaths),-65565.63046,-56318.37343,-74521.90668
+Protein,Poultry,CDP,CMD (deaths),0,0,0
+Protein,Poultry,MED,CMD (deaths),0,0,0
+Protein,Poultry,HUS,CMD (deaths),0,0,0
+Protein,Poultry,VEG,CMD (deaths),0,0,0
+Protein,Poultry,VGN,CMD (deaths),0,0,0
+Protein,Red meats,CDP,CMD (deaths),0,0,0
+Protein,Red meats,MED,CMD (deaths),0,0,0
+Protein,Red meats,HUS,CMD (deaths),0,0,0
+Protein,Red meats,VEG,CMD (deaths),0,0,0
+Protein,Red meats,VGN,CMD (deaths),0,0,0
+Protein,Seafood,CDP,CMD (deaths),-5907.899999,-4646.678096,-7341.947753
+Protein,Seafood,MED,CMD (deaths),-14520.40716,-11512.41379,-17671.41301
+Protein,Seafood,HUS,CMD (deaths),-7604.196307,-6017.923219,-9370.748761
+Protein,Seafood,VEG,CMD (deaths),-0.232093833,-7.48E-05,-4.177758181
+Protein,Seafood,VGN,CMD (deaths),-0.232093833,-7.48E-05,-4.177758181
+Other,Saturated fat,CDP,CMD (deaths),0,0,0
+Other,Saturated fat,MED,CMD (deaths),0,0,0
+Other,Saturated fat,HUS,CMD (deaths),0,0,0
+Other,Saturated fat,VEG,CMD (deaths),0,0,0
+Other,Saturated fat,VGN,CMD (deaths),0,0,0
+Other,Added sugar,CDP,CMD (deaths),-76235.8895,-70196.92013,-82969.28813
+Other,Added sugar,MED,CMD (deaths),-45187.46083,-40601.6278,-50178.52131
+Other,Added sugar,HUS,CMD (deaths),-45187.46083,-40601.6278,-50178.52131
+Other,Added sugar,VEG,CMD (deaths),-45187.46083,-40601.6278,-50178.52131
+Other,Added sugar,VGN,CMD (deaths),-45187.46083,-40601.6278,-50178.52131
+Vegetables,Non-starchy vegetables,CDP,CMD (deaths),-20586.70313,-18103.38153,-23016.34269
+Vegetables,Non-starchy vegetables,MED,CMD (deaths),-20586.70313,-18103.38153,-23016.34269
+Vegetables,Non-starchy vegetables,HUS,CMD (deaths),-20586.70313,-18103.38153,-23016.34269
+Vegetables,Non-starchy vegetables,VEG,CMD (deaths),-20586.70313,-18103.38153,-23016.34269
+Vegetables,Non-starchy vegetables,VGN,CMD (deaths),-20586.70313,-18103.38153,-23016.34269
+Vegetables,Starchy vegetables,CDP,CMD (deaths),0,0,0
+Vegetables,Starchy vegetables,MED,CMD (deaths),0,0,0
+Vegetables,Starchy vegetables,HUS,CMD (deaths),0,0,0
+Vegetables,Starchy vegetables,VEG,CMD (deaths),0,0,0
+Vegetables,Starchy vegetables,VGN,CMD (deaths),0,0,0
+Dairy,"Dairy, total",CDP,Cancer (cases),-10960.20287,-10138.11563,-11743.37788
+Dairy,"Dairy, total",MED,Cancer (cases),-4687.512008,-4281.89691,-5094.520183
+Dairy,"Dairy, total",HUS,Cancer (cases),-10960.20287,-10138.11563,-11743.37788
+Dairy,"Dairy, total",VEG,Cancer (cases),-10960.20287,-10138.11563,-11743.37788
+Dairy,"Dairy, total",VGN,Cancer (cases),0,0,0
+Fruit,Whole fruits,CDP,Cancer (cases),-8515.316124,-6719.287841,-10204.33477
+Fruit,Whole fruits,MED,Cancer (cases),-8021.438178,-6322.687505,-9625.177717
+Fruit,Whole fruits,HUS,Cancer (cases),-5618.581678,-4402.873039,-6811.862337
+Fruit,Whole fruits,VEG,Cancer (cases),-5618.581678,-4402.873039,-6811.862337
+Fruit,Whole fruits,VGN,Cancer (cases),-5618.581678,-4402.873039,-6811.862337
+Fruit,"Fruit juice, 100%",CDP,Cancer (cases),0,0,0
+Fruit,"Fruit juice, 100%",MED,Cancer (cases),0,0,0
+Fruit,"Fruit juice, 100%",HUS,Cancer (cases),0,0,0
+Fruit,"Fruit juice, 100%",VEG,Cancer (cases),0,0,0
+Fruit,"Fruit juice, 100%",VGN,Cancer (cases),0,0,0
+Grains,Refined grains,CDP,Cancer (cases),0,0,0
+Grains,Refined grains,MED,Cancer (cases),0,0,0
+Grains,Refined grains,HUS,Cancer (cases),0,0,0
+Grains,Refined grains,VEG,Cancer (cases),0,0,0
+Grains,Refined grains,VGN,Cancer (cases),0,0,0
+Grains,Whole grains,CDP,Cancer (cases),-30721.49389,-28357.47997,-33047.47922
+Grains,Whole grains,MED,Cancer (cases),-30721.49389,-28357.47997,-33047.47922
+Grains,Whole grains,HUS,Cancer (cases),-30721.49389,-28357.47997,-33047.47922
+Grains,Whole grains,VEG,Cancer (cases),-30721.49389,-28357.47997,-33047.47922
+Grains,Whole grains,VGN,Cancer (cases),-30721.49389,-28357.47997,-33047.47922
+Protein,Legumes,CDP,Cancer (cases),-8007.067219,-7358.540104,-8761.050862
+Protein,Legumes,MED,Cancer (cases),-2669.482731,-2375.951994,-2988.452685
+Protein,Legumes,HUS,Cancer (cases),-2669.482731,-2375.951994,-2988.452685
+Protein,Legumes,VEG,Cancer (cases),-13205.41363,-12146.43793,-14335.63003
+Protein,Legumes,VGN,Cancer (cases),-13205.41363,-12146.43793,-14335.63003
+Other,Oil,CDP,Cancer (cases),0,0,0
+Other,Oil,MED,Cancer (cases),0,0,0
+Other,Oil,HUS,Cancer (cases),0,0,0
+Other,Oil,VEG,Cancer (cases),0,0,0
+Other,Oil,VGN,Cancer (cases),0,0,0
+Protein,Eggs,CDP,Cancer (cases),0,0,0
+Protein,Eggs,MED,Cancer (cases),0,0,0
+Protein,Eggs,HUS,Cancer (cases),0,0,0
+Protein,Eggs,VEG,Cancer (cases),0,0,0
+Protein,Eggs,VGN,Cancer (cases),0,0,0
+Protein,Nuts & seeds,CDP,Cancer (cases),-1174.072795,-1024.812985,-1322.169001
+Protein,Nuts & seeds,MED,Cancer (cases),-257.9221277,-176.2777786,-346.8733598
+Protein,Nuts & seeds,HUS,Cancer (cases),-257.9221277,-176.2777786,-346.8733598
+Protein,Nuts & seeds,VEG,Cancer (cases),-1174.072795,-1024.812985,-1322.169001
+Protein,Nuts & seeds,VGN,Cancer (cases),-1172.094537,-1023.07843,-1320.418809
+Protein,Processed meats,CDP,Cancer (cases),-14063.78891,-12359.45281,-15780.93243
+Protein,Processed meats,MED,Cancer (cases),-3748.92814,-2995.769388,-4583.995062
+Protein,Processed meats,HUS,Cancer (cases),-3748.92814,-2995.769388,-4583.995062
+Protein,Processed meats,VEG,Cancer (cases),-14063.78891,-12359.45281,-15780.93243
+Protein,Processed meats,VGN,Cancer (cases),-14063.78891,-12359.45281,-15780.93243
+Protein,Poultry,CDP,Cancer (cases),0,0,0
+Protein,Poultry,MED,Cancer (cases),0,0,0
+Protein,Poultry,HUS,Cancer (cases),0,0,0
+Protein,Poultry,VEG,Cancer (cases),0,0,0
+Protein,Poultry,VGN,Cancer (cases),0,0,0
+Protein,Red meats,CDP,Cancer (cases),0,0,0
+Protein,Red meats,MED,Cancer (cases),0,0,0
+Protein,Red meats,HUS,Cancer (cases),0,0,0
+Protein,Red meats,VEG,Cancer (cases),0,0,0
+Protein,Red meats,VGN,Cancer (cases),0,0,0
+Protein,Seafood,CDP,Cancer (cases),0,0,0
+Protein,Seafood,MED,Cancer (cases),0,0,0
+Protein,Seafood,HUS,Cancer (cases),0,0,0
+Protein,Seafood,VEG,Cancer (cases),0,0,0
+Protein,Seafood,VGN,Cancer (cases),0,0,0
+Other,Saturated fat,CDP,Cancer (cases),0,0,0
+Other,Saturated fat,MED,Cancer (cases),0,0,0
+Other,Saturated fat,HUS,Cancer (cases),0,0,0
+Other,Saturated fat,VEG,Cancer (cases),0,0,0
+Other,Saturated fat,VGN,Cancer (cases),0,0,0
+Other,Added sugar,CDP,Cancer (cases),-4986.180547,-4570.57865,-5468.043197
+Other,Added sugar,MED,Cancer (cases),-2756.567399,-2421.452193,-3124.881278
+Other,Added sugar,HUS,Cancer (cases),-2756.567399,-2421.452193,-3124.881278
+Other,Added sugar,VEG,Cancer (cases),-2756.567399,-2421.452193,-3124.881278
+Other,Added sugar,VGN,Cancer (cases),-2756.567399,-2421.452193,-3124.881278
+Vegetables,Non-starchy vegetables,CDP,Cancer (cases),-4073.263022,-3391.121112,-4805.598827
+Vegetables,Non-starchy vegetables,MED,Cancer (cases),-4073.263022,-3391.121112,-4805.598827
+Vegetables,Non-starchy vegetables,HUS,Cancer (cases),-4073.263022,-3391.121112,-4805.598827
+Vegetables,Non-starchy vegetables,VEG,Cancer (cases),-4073.263022,-3391.121112,-4805.598827
+Vegetables,Non-starchy vegetables,VGN,Cancer (cases),-4073.263022,-3391.121112,-4805.598827
+Vegetables,Starchy vegetables,CDP,Cancer (cases),0,0,0
+Vegetables,Starchy vegetables,MED,Cancer (cases),0,0,0
+Vegetables,Starchy vegetables,HUS,Cancer (cases),0,0,0
+Vegetables,Starchy vegetables,VEG,Cancer (cases),0,0,0
+Vegetables,Starchy vegetables,VGN,Cancer (cases),0,0,0
+Dairy,"Dairy, total",CDP,CED (MJ),1090.409302,1074.682487,1105.70368
+Dairy,"Dairy, total",MED,CED (MJ),418.1282136,400.6336745,434.2204566
+Dairy,"Dairy, total",HUS,CED (MJ),1090.06569,1073.73847,1105.168895
+Dairy,"Dairy, total",VEG,CED (MJ),1089.907055,1073.563948,1106.117722
+Dairy,"Dairy, total",VGN,CED (MJ),-584.3139105,-601.0975454,-568.7875007
+Fruit,Whole fruits,CDP,CED (MJ),458.1211553,451.1286206,464.9246418
+Fruit,Whole fruits,MED,CED (MJ),430.1496711,422.9008013,436.9357353
+Fruit,Whole fruits,HUS,CED (MJ),298.499387,291.6876159,305.4772925
+Fruit,Whole fruits,VEG,CED (MJ),298.6869829,291.4542894,305.1187421
+Fruit,Whole fruits,VGN,CED (MJ),298.3851113,291.4007448,305.2377648
+Fruit,"Fruit juice, 100%",CDP,CED (MJ),-191.9581835,-201.0768745,-183.2604637
+Fruit,"Fruit juice, 100%",MED,CED (MJ),260.0541971,251.0973433,269.176891
+Fruit,"Fruit juice, 100%",HUS,CED (MJ),166.9821077,157.5683363,175.1504447
+Fruit,"Fruit juice, 100%",VEG,CED (MJ),166.4448205,157.932668,175.6733554
+Fruit,"Fruit juice, 100%",VGN,CED (MJ),166.783651,157.1921251,175.9372656
+Grains,Refined grains,CDP,CED (MJ),-155.8971329,-158.9297445,-153.0503897
+Grains,Refined grains,MED,CED (MJ),-128.2578618,-131.4356169,-125.095181
+Grains,Refined grains,HUS,CED (MJ),-128.2035496,-131.4619019,-125.0382157
+Grains,Refined grains,VEG,CED (MJ),-128.2207332,-131.1505401,-125.1423451
+Grains,Refined grains,VGN,CED (MJ),-128.2268146,-131.4671844,-125.0413995
+Grains,Whole grains,CDP,CED (MJ),194.6066726,192.9671814,196.4529196
+Grains,Whole grains,MED,CED (MJ),157.6360216,155.8229905,159.4526746
+Grains,Whole grains,HUS,CED (MJ),157.6146475,155.890887,159.470526
+Grains,Whole grains,VEG,CED (MJ),194.5352285,193.0373357,196.3387053
+Grains,Whole grains,VGN,CED (MJ),194.6006983,192.9667613,196.3887931
+Protein,Legumes,CDP,CED (MJ),90.09084618,88.82000226,91.36057355
+Protein,Legumes,MED,CED (MJ),29.47110536,28.15723192,30.76219183
+Protein,Legumes,HUS,CED (MJ),29.46148557,28.19866464,30.83135319
+Protein,Legumes,VEG,CED (MJ),171.104554,169.7917984,172.3850322
+Protein,Legumes,VGN,CED (MJ),190.7943364,189.484277,192.0776141
+Other,Oil,CDP,CED (MJ),-2.233680378,-3.523411395,-0.978058381
+Other,Oil,MED,CED (MJ),-2.295257917,-3.574167677,-1.064884622
+Other,Oil,HUS,CED (MJ),-2.228928723,-3.431255479,-1.060282498
+Other,Oil,VEG,CED (MJ),-2.250582787,-3.502237918,-1.027711968
+Other,Oil,VGN,CED (MJ),-2.307129469,-3.56402571,-0.953536733
+Protein,Eggs,CDP,CED (MJ),-214.4734963,-226.2187743,-203.5269143
+Protein,Eggs,MED,CED (MJ),-89.61252152,-100.321107,-78.09549328
+Protein,Eggs,HUS,CED (MJ),-89.32523793,-100.4424894,-77.34536201
+Protein,Eggs,VEG,CED (MJ),-116.5411955,-128.0461547,-105.5863546
+Protein,Eggs,VGN,CED (MJ),-351.1247756,-363.2905204,-339.368141
+Protein,Nuts & seeds,CDP,CED (MJ),19.01038826,17.51370983,20.64110771
+Protein,Nuts & seeds,MED,CED (MJ),-2.176197066,-3.706092203,-0.636635668
+Protein,Nuts & seeds,HUS,CED (MJ),-2.197036728,-3.684636067,-0.64443078
+Protein,Nuts & seeds,VEG,CED (MJ),19.03625038,17.51291237,20.49191346
+Protein,Nuts & seeds,VGN,CED (MJ),27.03184243,25.62927594,28.45954129
+Protein,Processed meats,CDP,CED (MJ),0,0,0
+Protein,Processed meats,MED,CED (MJ),0,0,0
+Protein,Processed meats,HUS,CED (MJ),0,0,0
+Protein,Processed meats,VEG,CED (MJ),0,0,0
+Protein,Processed meats,VGN,CED (MJ),0,0,0
+Protein,Poultry,CDP,CED (MJ),-272.9113213,-284.7752961,-260.8860726
+Protein,Poultry,MED,CED (MJ),-109.3444895,-121.1825942,-97.22478552
+Protein,Poultry,HUS,CED (MJ),-109.429237,-119.8043988,-97.21930027
+Protein,Poultry,VEG,CED (MJ),-628.0875551,-639.9202312,-616.4064927
+Protein,Poultry,VGN,CED (MJ),-628.4490552,-640.8947604,-616.302597
+Protein,Red meats,CDP,CED (MJ),-1300.332369,-1331.352621,-1270.009252
+Protein,Red meats,MED,CED (MJ),-305.9133485,-337.71101,-275.723481
+Protein,Red meats,HUS,CED (MJ),-306.2071749,-335.1775324,-275.9648203
+Protein,Red meats,VEG,CED (MJ),-1693.618122,-1722.41717,-1663.172392
+Protein,Red meats,VGN,CED (MJ),-1693.923676,-1724.197803,-1662.454414
+Protein,Seafood,CDP,CED (MJ),1125.071661,1080.192211,1171.703894
+Protein,Seafood,MED,CED (MJ),3802.696081,3756.784896,3850.62694
+Protein,Seafood,HUS,CED (MJ),1453.742929,1400.033109,1500.667502
+Protein,Seafood,VEG,CED (MJ),-1222.398276,-1267.842916,-1173.999238
+Protein,Seafood,VGN,CED (MJ),-1222.031726,-1275.336669,-1176.932283
+Other,Saturated fat,CDP,CED (MJ),-296.2786165,-300.6297737,-292.2823714
+Other,Saturated fat,MED,CED (MJ),-309.9750874,-314.3228518,-305.4906395
+Other,Saturated fat,HUS,CED (MJ),-310.0837309,-314.5732801,-305.6370895
+Other,Saturated fat,VEG,CED (MJ),-296.3963699,-300.8737166,-292.1281227
+Other,Saturated fat,VGN,CED (MJ),-296.3736542,-300.7542501,-291.9621152
+Other,Added sugar,CDP,CED (MJ),-113.6072005,-117.5775619,-109.7693977
+Other,Added sugar,MED,CED (MJ),-117.7567048,-121.298286,-114.0540854
+Other,Added sugar,HUS,CED (MJ),-117.8446767,-121.3055281,-114.1452639
+Other,Added sugar,VEG,CED (MJ),-113.4459902,-116.9746436,-109.9836908
+Other,Added sugar,VGN,CED (MJ),-113.4604811,-117.322702,-109.7649542
+Vegetables,Non-starchy vegetables,CDP,CED (MJ),191.0640483,184.4413706,198.0342383
+Vegetables,Non-starchy vegetables,MED,CED (MJ),191.0406364,184.3040392,198.2979285
+Vegetables,Non-starchy vegetables,HUS,CED (MJ),191.1839535,184.3258134,197.9829999
+Vegetables,Non-starchy vegetables,VEG,CED (MJ),191.1108916,184.2144293,198.1468573
+Vegetables,Non-starchy vegetables,VGN,CED (MJ),191.2808993,184.3795743,198.0626939
+Vegetables,Starchy vegetables,CDP,CED (MJ),72.30856342,69.91475273,74.66356023
+Vegetables,Starchy vegetables,MED,CED (MJ),72.37578785,70.01428692,74.70735328
+Vegetables,Starchy vegetables,HUS,CED (MJ),72.33953894,69.99681342,74.50566992
+Vegetables,Starchy vegetables,VEG,CED (MJ),72.39657208,70.13090971,74.66893487
+Vegetables,Starchy vegetables,VGN,CED (MJ),72.28955399,69.89673319,74.66082788
+Dairy,"Dairy, total",CDP,FLR (mrh-eq),24.80768602,24.28688357,25.31724471
+Dairy,"Dairy, total",MED,FLR (mrh-eq),9.06041501,8.495765272,9.596324805
+Dairy,"Dairy, total",HUS,FLR (mrh-eq),24.80329773,24.2510976,25.31525613
+Dairy,"Dairy, total",VEG,FLR (mrh-eq),24.79923668,24.24663226,25.34004061
+Dairy,"Dairy, total",VGN,FLR (mrh-eq),34.85046844,34.30330875,35.38071653
+Fruit,Whole fruits,CDP,FLR (mrh-eq),29.66817163,29.20762631,30.1084961
+Fruit,Whole fruits,MED,FLR (mrh-eq),27.8582505,27.37470201,28.30064659
+Fruit,Whole fruits,HUS,FLR (mrh-eq),19.32105163,18.87819904,19.78653257
+Fruit,Whole fruits,VEG,FLR (mrh-eq),19.33385646,18.87160972,19.75847224
+Fruit,Whole fruits,VGN,FLR (mrh-eq),19.31768743,18.84870369,19.76614548
+Fruit,"Fruit juice, 100%",CDP,FLR (mrh-eq),-11.93280482,-12.48604896,-11.38963733
+Fruit,"Fruit juice, 100%",MED,FLR (mrh-eq),16.42869054,15.87774629,17.00066397
+Fruit,"Fruit juice, 100%",HUS,FLR (mrh-eq),10.58410127,9.995352713,11.09015059
+Fruit,"Fruit juice, 100%",VEG,FLR (mrh-eq),10.55563469,10.02819049,11.12144561
+Fruit,"Fruit juice, 100%",VGN,FLR (mrh-eq),10.57036497,9.997798935,11.13053314
+Grains,Refined grains,CDP,FLR (mrh-eq),-3.512730987,-3.580896518,-3.4451742
+Grains,Refined grains,MED,FLR (mrh-eq),-2.886683519,-2.957990014,-2.813821797
+Grains,Refined grains,HUS,FLR (mrh-eq),-2.885549867,-2.959168326,-2.815653678
+Grains,Refined grains,VEG,FLR (mrh-eq),-2.885785888,-2.954643291,-2.817452054
+Grains,Refined grains,VGN,FLR (mrh-eq),-2.88601054,-2.962094874,-2.813649817
+Grains,Whole grains,CDP,FLR (mrh-eq),3.604698065,3.572997357,3.63936679
+Grains,Whole grains,MED,FLR (mrh-eq),2.918851037,2.884050636,2.952584598
+Grains,Whole grains,HUS,FLR (mrh-eq),2.918386505,2.885908959,2.952073037
+Grains,Whole grains,VEG,FLR (mrh-eq),3.603687757,3.574408572,3.63534895
+Grains,Whole grains,VGN,FLR (mrh-eq),3.605142733,3.573125576,3.640232103
+Protein,Legumes,CDP,FLR (mrh-eq),3.838739321,3.783511373,3.893845625
+Protein,Legumes,MED,FLR (mrh-eq),1.258315846,1.203371397,1.31394726
+Protein,Legumes,HUS,FLR (mrh-eq),1.258654504,1.203897488,1.315804662
+Protein,Legumes,VEG,FLR (mrh-eq),7.286212708,7.230794846,7.339899889
+Protein,Legumes,VGN,FLR (mrh-eq),8.124704716,8.069345882,8.179156113
+Other,Oil,CDP,FLR (mrh-eq),-0.114305479,-0.179738336,-0.052578612
+Other,Oil,MED,FLR (mrh-eq),-0.117473456,-0.182203488,-0.055028322
+Other,Oil,HUS,FLR (mrh-eq),-0.11383961,-0.176187087,-0.053927275
+Other,Oil,VEG,FLR (mrh-eq),-0.114374625,-0.178105148,-0.052766178
+Other,Oil,VGN,FLR (mrh-eq),-0.118146556,-0.182056686,-0.047416597
+Protein,Eggs,CDP,FLR (mrh-eq),-3.067816978,-3.239445285,-2.904758184
+Protein,Eggs,MED,FLR (mrh-eq),-1.279592781,-1.431797232,-1.110668024
+Protein,Eggs,HUS,FLR (mrh-eq),-1.275527325,-1.436005777,-1.102222207
+Protein,Eggs,VEG,FLR (mrh-eq),-1.666809848,-1.832218524,-1.508128374
+Protein,Eggs,VGN,FLR (mrh-eq),-5.025083211,-5.201683448,-4.861692612
+Protein,Nuts & seeds,CDP,FLR (mrh-eq),4.56149112,4.198631179,4.952036551
+Protein,Nuts & seeds,MED,FLR (mrh-eq),-0.790844269,-1.1819665,-0.392735323
+Protein,Nuts & seeds,HUS,FLR (mrh-eq),-0.803118835,-1.189117916,-0.424202157
+Protein,Nuts & seeds,VEG,FLR (mrh-eq),4.565184026,4.211737843,4.944460695
+Protein,Nuts & seeds,VGN,FLR (mrh-eq),6.606366267,6.232458489,6.971607796
+Protein,Processed meats,CDP,FLR (mrh-eq),0,0,0
+Protein,Processed meats,MED,FLR (mrh-eq),0,0,0
+Protein,Processed meats,HUS,FLR (mrh-eq),0,0,0
+Protein,Processed meats,VEG,FLR (mrh-eq),0,0,0
+Protein,Processed meats,VGN,FLR (mrh-eq),0,0,0
+Protein,Poultry,CDP,FLR (mrh-eq),-4.382184144,-4.571609029,-4.188932405
+Protein,Poultry,MED,FLR (mrh-eq),-1.757452393,-1.947040528,-1.562101667
+Protein,Poultry,HUS,FLR (mrh-eq),-1.758950059,-1.924670023,-1.563056135
+Protein,Poultry,VEG,FLR (mrh-eq),-10.08200279,-10.27116586,-9.895038794
+Protein,Poultry,VGN,FLR (mrh-eq),-10.0877929,-10.28668067,-9.892794099
+Protein,Red meats,CDP,FLR (mrh-eq),-45.17926889,-46.2570636,-44.12662649
+Protein,Red meats,MED,FLR (mrh-eq),-10.63372199,-11.73865251,-9.582553028
+Protein,Red meats,HUS,FLR (mrh-eq),-10.64379078,-11.65085528,-9.591530991
+Protein,Red meats,VEG,FLR (mrh-eq),-58.84167895,-59.84714223,-57.78316406
+Protein,Red meats,VGN,FLR (mrh-eq),-58.85239987,-59.90364154,-57.75817683
+Protein,Seafood,CDP,FLR (mrh-eq),12.78502627,12.26268503,13.33492354
+Protein,Seafood,MED,FLR (mrh-eq),43.26694864,42.75711842,43.81098075
+Protein,Seafood,HUS,FLR (mrh-eq),16.52566514,15.93427765,17.06763006
+Protein,Seafood,VEG,FLR (mrh-eq),-13.93885799,-14.460456,-13.38343396
+Protein,Seafood,VGN,FLR (mrh-eq),-13.94493015,-14.54229748,-13.42603134
+Other,Saturated fat,CDP,FLR (mrh-eq),-8.008947427,-8.126022268,-7.898015177
+Other,Saturated fat,MED,FLR (mrh-eq),-8.379896966,-8.498261298,-8.257970384
+Other,Saturated fat,HUS,FLR (mrh-eq),-8.38252846,-8.504575007,-8.260115454
+Other,Saturated fat,VEG,FLR (mrh-eq),-8.012030931,-8.133137082,-7.896986206
+Other,Saturated fat,VGN,FLR (mrh-eq),-8.011713357,-8.129353815,-7.889899751
+Other,Added sugar,CDP,FLR (mrh-eq),-5.203720574,-5.381145854,-5.02501698
+Other,Added sugar,MED,FLR (mrh-eq),-5.393617259,-5.553681411,-5.219100787
+Other,Added sugar,HUS,FLR (mrh-eq),-5.396828712,-5.560021507,-5.227425631
+Other,Added sugar,VEG,FLR (mrh-eq),-5.195948422,-5.360219605,-5.037007181
+Other,Added sugar,VGN,FLR (mrh-eq),-5.196264775,-5.37761331,-5.028520028
+Vegetables,Non-starchy vegetables,CDP,FLR (mrh-eq),8.481344882,8.14093552,8.834507181
+Vegetables,Non-starchy vegetables,MED,FLR (mrh-eq),8.48028824,8.132039606,8.857363886
+Vegetables,Non-starchy vegetables,HUS,FLR (mrh-eq),8.485141794,8.134949135,8.840653524
+Vegetables,Non-starchy vegetables,VEG,FLR (mrh-eq),8.486104692,8.131432752,8.841087472
+Vegetables,Non-starchy vegetables,VGN,FLR (mrh-eq),8.489870565,8.13477022,8.833467546
+Vegetables,Starchy vegetables,CDP,FLR (mrh-eq),1.296353408,1.257967002,1.333938324
+Vegetables,Starchy vegetables,MED,FLR (mrh-eq),1.296910955,1.259941263,1.334137707
+Vegetables,Starchy vegetables,HUS,FLR (mrh-eq),1.295934625,1.259397548,1.332637332
+Vegetables,Starchy vegetables,VEG,FLR (mrh-eq),1.297504076,1.259994117,1.333642545
+Vegetables,Starchy vegetables,VGN,FLR (mrh-eq),1.295774733,1.257422712,1.332104828
+Dairy,"Dairy, total",CDP,GHG (kgCO2-eq),202.5805237,199.6950209,205.3859993
+Dairy,"Dairy, total",MED,GHG (kgCO2-eq),77.78219769,74.5690884,80.73407866
+Dairy,"Dairy, total",HUS,GHG (kgCO2-eq),202.5159227,199.522823,205.284379
+Dairy,"Dairy, total",VEG,GHG (kgCO2-eq),202.4865514,199.4905098,205.459944
+Dairy,"Dairy, total",VGN,GHG (kgCO2-eq),-119.2735776,-122.3549053,-116.4284247
+Fruit,Whole fruits,CDP,GHG (kgCO2-eq),60.11007393,59.1385798,60.97529608
+Fruit,Whole fruits,MED,GHG (kgCO2-eq),56.44092508,55.50958252,57.31818573
+Fruit,Whole fruits,HUS,GHG (kgCO2-eq),39.15100202,38.25900136,40.06633882
+Fruit,Whole fruits,VEG,GHG (kgCO2-eq),39.17187845,38.23978416,39.99957329
+Fruit,Whole fruits,VGN,GHG (kgCO2-eq),39.13573701,38.22851708,40.03014329
+Fruit,"Fruit juice, 100%",CDP,GHG (kgCO2-eq),-24.38949715,-25.55739346,-23.30456329
+Fruit,"Fruit juice, 100%",MED,GHG (kgCO2-eq),32.97460826,31.85988089,34.13057006
+Fruit,"Fruit juice, 100%",HUS,GHG (kgCO2-eq),21.16162256,19.98010495,22.1884722
+Fruit,"Fruit juice, 100%",VEG,GHG (kgCO2-eq),21.09776568,20.03499573,22.27309332
+Fruit,"Fruit juice, 100%",VGN,GHG (kgCO2-eq),21.13632619,19.93172106,22.30060584
+Grains,Refined grains,CDP,GHG (kgCO2-eq),-27.16016324,-27.6763847,-26.66866324
+Grains,Refined grains,MED,GHG (kgCO2-eq),-22.35981256,-22.90555075,-21.81316814
+Grains,Refined grains,HUS,GHG (kgCO2-eq),-22.34898897,-22.91454518,-21.81854454
+Grains,Refined grains,VEG,GHG (kgCO2-eq),-22.35595899,-22.87226373,-21.82156079
+Grains,Refined grains,VGN,GHG (kgCO2-eq),-22.35925172,-22.90980356,-21.82078075
+Grains,Whole grains,CDP,GHG (kgCO2-eq),30.80288664,30.539015,31.09331114
+Grains,Whole grains,MED,GHG (kgCO2-eq),24.94208727,24.65240843,25.2259873
+Grains,Whole grains,HUS,GHG (kgCO2-eq),24.93880468,24.67219789,25.23907315
+Grains,Whole grains,VEG,GHG (kgCO2-eq),30.79474416,30.55271445,31.06973097
+Grains,Whole grains,VGN,GHG (kgCO2-eq),30.80558637,30.53574278,31.09667375
+Protein,Legumes,CDP,GHG (kgCO2-eq),15.00524941,14.78646681,15.21876806
+Protein,Legumes,MED,GHG (kgCO2-eq),4.970432255,4.746845941,5.19388996
+Protein,Legumes,HUS,GHG (kgCO2-eq),4.970877863,4.752671248,5.181708223
+Protein,Legumes,VEG,GHG (kgCO2-eq),28.41415677,28.19039403,28.62536543
+Protein,Legumes,VGN,GHG (kgCO2-eq),31.67155464,31.44943762,31.88618385
+Other,Oil,CDP,GHG (kgCO2-eq),-0.275517624,-0.432889525,-0.123306554
+Other,Oil,MED,GHG (kgCO2-eq),-0.283672458,-0.437220406,-0.129029881
+Other,Oil,HUS,GHG (kgCO2-eq),-0.274795675,-0.421560863,-0.133075789
+Other,Oil,VEG,GHG (kgCO2-eq),-0.276883272,-0.428816012,-0.129907252
+Other,Oil,VGN,GHG (kgCO2-eq),-0.28509563,-0.437042624,-0.119001728
+Protein,Eggs,CDP,GHG (kgCO2-eq),-35.0037073,-36.92062608,-33.21714179
+Protein,Eggs,MED,GHG (kgCO2-eq),-14.6254457,-16.37316836,-12.74577902
+Protein,Eggs,HUS,GHG (kgCO2-eq),-14.57855883,-16.3929789,-12.62335188
+Protein,Eggs,VEG,GHG (kgCO2-eq),-19.0204103,-20.89810722,-17.23249686
+Protein,Eggs,VGN,GHG (kgCO2-eq),-57.30623636,-59.29177853,-55.3874641
+Protein,Nuts & seeds,CDP,GHG (kgCO2-eq),3.285134091,3.020083993,3.566208198
+Protein,Nuts & seeds,MED,GHG (kgCO2-eq),-0.423481208,-0.691056339,-0.152149543
+Protein,Nuts & seeds,HUS,GHG (kgCO2-eq),-0.427046696,-0.684854824,-0.157446874
+Protein,Nuts & seeds,VEG,GHG (kgCO2-eq),3.2864021,3.033831051,3.542266315
+Protein,Nuts & seeds,VGN,GHG (kgCO2-eq),4.692084229,4.437829898,4.947297738
+Protein,Processed meats,CDP,GHG (kgCO2-eq),0,0,0
+Protein,Processed meats,MED,GHG (kgCO2-eq),0,0,0
+Protein,Processed meats,HUS,GHG (kgCO2-eq),0,0,0
+Protein,Processed meats,VEG,GHG (kgCO2-eq),0,0,0
+Protein,Processed meats,VGN,GHG (kgCO2-eq),0,0,0
+Protein,Poultry,CDP,GHG (kgCO2-eq),-39.46698489,-41.16804144,-37.72529593
+Protein,Poultry,MED,GHG (kgCO2-eq),-15.83093838,-17.5389914,-14.07603501
+Protein,Poultry,HUS,GHG (kgCO2-eq),-15.84965542,-17.33554723,-14.08688315
+Protein,Poultry,VEG,GHG (kgCO2-eq),-90.78296194,-92.47904096,-89.10560971
+Protein,Poultry,VGN,GHG (kgCO2-eq),-90.83035182,-92.62840098,-89.0794111
+Protein,Red meats,CDP,GHG (kgCO2-eq),-564.1588059,-577.6662788,-550.9625338
+Protein,Red meats,MED,GHG (kgCO2-eq),-133.0434161,-146.8030207,-119.9232056
+Protein,Red meats,HUS,GHG (kgCO2-eq),-133.1939294,-145.768923,-119.9694056
+Protein,Red meats,VEG,GHG (kgCO2-eq),-734.6381541,-747.4407556,-721.5132981
+Protein,Red meats,VGN,GHG (kgCO2-eq),-734.7500829,-747.8129911,-721.1304391
+Protein,Seafood,CDP,GHG (kgCO2-eq),63.40733885,60.66916412,66.23618781
+Protein,Seafood,MED,GHG (kgCO2-eq),214.8390221,212.138333,217.6909924
+Protein,Seafood,HUS,GHG (kgCO2-eq),81.97539894,78.83983212,84.78368538
+Protein,Seafood,VEG,GHG (kgCO2-eq),-69.42859743,-72.19955925,-66.56548287
+Protein,Seafood,VGN,GHG (kgCO2-eq),-69.47464649,-72.43464485,-66.69027277
+Other,Saturated fat,CDP,GHG (kgCO2-eq),-80.21294102,-81.38459341,-79.0835805
+Other,Saturated fat,MED,GHG (kgCO2-eq),-83.92776296,-85.11673503,-82.711817
+Other,Saturated fat,HUS,GHG (kgCO2-eq),-83.94828627,-85.18614485,-82.73277548
+Other,Saturated fat,VEG,GHG (kgCO2-eq),-80.23614126,-81.4612317,-79.08201564
+Other,Saturated fat,VGN,GHG (kgCO2-eq),-80.23564983,-81.43361052,-79.01436769
+Other,Added sugar,CDP,GHG (kgCO2-eq),-11.68278592,-12.08590014,-11.28706752
+Other,Added sugar,MED,GHG (kgCO2-eq),-12.10824986,-12.47303142,-11.72530899
+Other,Added sugar,HUS,GHG (kgCO2-eq),-12.11889276,-12.47546363,-11.74074246
+Other,Added sugar,VEG,GHG (kgCO2-eq),-11.66339897,-12.03490095,-11.30865791
+Other,Added sugar,VGN,GHG (kgCO2-eq),-11.66824961,-12.06875715,-11.28772968
+Vegetables,Non-starchy vegetables,CDP,GHG (kgCO2-eq),23.38986176,22.48871576,24.32359462
+Vegetables,Non-starchy vegetables,MED,GHG (kgCO2-eq),23.38249627,22.45853194,24.38641285
+Vegetables,Non-starchy vegetables,HUS,GHG (kgCO2-eq),23.40335263,22.47004747,24.34784417
+Vegetables,Non-starchy vegetables,VEG,GHG (kgCO2-eq),23.39753585,22.45526559,24.37579103
+Vegetables,Non-starchy vegetables,VGN,GHG (kgCO2-eq),23.4204956,22.47501975,24.32564766
+Vegetables,Starchy vegetables,CDP,GHG (kgCO2-eq),8.164167118,7.906988951,8.412422008
+Vegetables,Starchy vegetables,MED,GHG (kgCO2-eq),8.167450706,7.922507321,8.416615819
+Vegetables,Starchy vegetables,HUS,GHG (kgCO2-eq),8.16248973,7.921859513,8.404608773
+Vegetables,Starchy vegetables,VEG,GHG (kgCO2-eq),8.172726281,7.926581488,8.413284564
+Vegetables,Starchy vegetables,VGN,GHG (kgCO2-eq),8.159568017,7.902779441,8.410213941
+Dairy,"Dairy, total",CDP,WS (L-eq),56864.49207,56087.91731,57618.89104
+Dairy,"Dairy, total",MED,WS (L-eq),21926.16733,21058.37675,22719.98299
+Dairy,"Dairy, total",HUS,WS (L-eq),56845.65614,56042.51207,57588.28137
+Dairy,"Dairy, total",VEG,WS (L-eq),56837.50417,56033.54308,57636.90757
+Dairy,"Dairy, total",VGN,WS (L-eq),-43341.40149,-44172.47054,-42579.02157
+Fruit,Whole fruits,CDP,WS (L-eq),209747.4687,206404.3503,212788.4843
+Fruit,Whole fruits,MED,WS (L-eq),196908.1566,193632.7262,199981.9817
+Fruit,Whole fruits,HUS,WS (L-eq),136571.6465,133369.9092,139797.6074
+Fruit,Whole fruits,VEG,WS (L-eq),136617.666,133360.1808,139552.5143
+Fruit,Whole fruits,VGN,WS (L-eq),136495.6503,133237.5637,139643.984
+Fruit,"Fruit juice, 100%",CDP,WS (L-eq),-63896.65845,-66987.1263,-60993.335
+Fruit,"Fruit juice, 100%",MED,WS (L-eq),89473.13543,86454.76158,92583.34861
+Fruit,"Fruit juice, 100%",HUS,WS (L-eq),57880.03837,54605.87701,60691.24872
+Fruit,"Fruit juice, 100%",VEG,WS (L-eq),57706.90858,54840.85335,60828.88483
+Fruit,"Fruit juice, 100%",VGN,WS (L-eq),57815.34656,54699.53778,60778.98178
+Grains,Refined grains,CDP,WS (L-eq),-42090.26369,-42910.13592,-41330.26979
+Grains,Refined grains,MED,WS (L-eq),-34603.1342,-35448.42291,-33744.54106
+Grains,Refined grains,HUS,WS (L-eq),-34581.59141,-35445.67158,-33738.88025
+Grains,Refined grains,VEG,WS (L-eq),-34591.71152,-35390.44228,-33753.03091
+Grains,Refined grains,VGN,WS (L-eq),-34588.07895,-35475.70139,-33745.60229
+Grains,Whole grains,CDP,WS (L-eq),55217.06964,54735.56205,55753.66445
+Grains,Whole grains,MED,WS (L-eq),44724.68333,44176.89701,45284.84323
+Grains,Whole grains,HUS,WS (L-eq),44720.77528,44200.92111,45243.80871
+Grains,Whole grains,VEG,WS (L-eq),55203.39813,54735.97947,55712.55443
+Grains,Whole grains,VGN,WS (L-eq),55228.33507,54727.05562,55773.87873
+Protein,Legumes,CDP,WS (L-eq),22161.26446,21827.21245,22488.18663
+Protein,Legumes,MED,WS (L-eq),6813.764991,6502.570725,7148.003202
+Protein,Legumes,HUS,WS (L-eq),6811.037011,6481.936103,7157.060499
+Protein,Legumes,VEG,WS (L-eq),42673.3598,42365.75478,42999.14188
+Protein,Legumes,VGN,WS (L-eq),47658.24923,47324.07529,48001.22092
+Other,Oil,CDP,WS (L-eq),-196.7299054,-307.1506316,-88.08063881
+Other,Oil,MED,WS (L-eq),-202.1804368,-309.762008,-95.48554084
+Other,Oil,HUS,WS (L-eq),-196.4157486,-297.0824561,-96.78633715
+Other,Oil,VEG,WS (L-eq),-197.3440115,-303.9479162,-92.51487164
+Other,Oil,VGN,WS (L-eq),-203.3752069,-309.445298,-87.02777276
+Protein,Eggs,CDP,WS (L-eq),-9627.513352,-10154.74782,-9136.131592
+Protein,Eggs,MED,WS (L-eq),-4022.621734,-4503.320054,-3505.633178
+Protein,Eggs,HUS,WS (L-eq),-4009.725844,-4508.768797,-3471.960491
+Protein,Eggs,VEG,WS (L-eq),-5231.424561,-5747.871348,-4739.672064
+Protein,Eggs,VGN,WS (L-eq),-15761.66064,-16307.76948,-15233.91638
+Protein,Nuts & seeds,CDP,WS (L-eq),41416.08355,38075.34318,44904.6033
+Protein,Nuts & seeds,MED,WS (L-eq),-5612.232811,-9005.638266,-2112.739199
+Protein,Nuts & seeds,HUS,WS (L-eq),-5643.818778,-8995.202857,-2263.251672
+Protein,Nuts & seeds,VEG,WS (L-eq),41455.45114,38139.79244,44652.08132
+Protein,Nuts & seeds,VGN,WS (L-eq),59258.83356,56005.03796,62350.74668
+Protein,Processed meats,CDP,WS (L-eq),0,0,0
+Protein,Processed meats,MED,WS (L-eq),0,0,0
+Protein,Processed meats,HUS,WS (L-eq),0,0,0
+Protein,Processed meats,VEG,WS (L-eq),0,0,0
+Protein,Processed meats,VGN,WS (L-eq),0,0,0
+Protein,Poultry,CDP,WS (L-eq),-18753.27782,-19567.96454,-17926.71986
+Protein,Poultry,MED,WS (L-eq),-7514.178104,-8327.031227,-6680.696012
+Protein,Poultry,HUS,WS (L-eq),-7519.877968,-8232.753891,-6680.302346
+Protein,Poultry,VEG,WS (L-eq),-43158.58122,-43971.53584,-42355.79302
+Protein,Poultry,VGN,WS (L-eq),-43183.28159,-44038.4111,-42348.86738
+Protein,Red meats,CDP,WS (L-eq),-167070.1509,-171063.7485,-163162.4628
+Protein,Red meats,MED,WS (L-eq),-39389.15442,-43461.2715,-35504.08378
+Protein,Red meats,HUS,WS (L-eq),-39431.23609,-43155.66606,-35518.68756
+Protein,Red meats,VEG,WS (L-eq),-217558.1904,-221338.7405,-213666.8088
+Protein,Red meats,VGN,WS (L-eq),-217587.3993,-221460.4075,-213560.5375
+Protein,Seafood,CDP,WS (L-eq),2401.937564,2295.483195,2509.237859
+Protein,Seafood,MED,WS (L-eq),8162.460926,8055.698168,8272.345251
+Protein,Seafood,HUS,WS (L-eq),3108.120236,2987.297866,3215.528133
+Protein,Seafood,VEG,WS (L-eq),-2652.739591,-2759.425661,-2538.720728
+Protein,Seafood,VGN,WS (L-eq),-2653.979509,-2766.466578,-2546.535635
+Other,Saturated fat,CDP,WS (L-eq),-23865.9697,-24213.98244,-23529.31292
+Other,Saturated fat,MED,WS (L-eq),-24971.16326,-25324.56257,-24609.80713
+Other,Saturated fat,HUS,WS (L-eq),-24977.57819,-25342.42379,-24615.59996
+Other,Saturated fat,VEG,WS (L-eq),-23872.78659,-24235.04206,-23528.96618
+Other,Saturated fat,VGN,WS (L-eq),-23871.8583,-24229.68968,-23510.97547
+Other,Added sugar,CDP,WS (L-eq),-8325.245243,-8606.686718,-8039.648222
+Other,Added sugar,MED,WS (L-eq),-8629.3442,-8885.921103,-8352.60284
+Other,Added sugar,HUS,WS (L-eq),-8633.760645,-8894.373247,-8361.965979
+Other,Added sugar,VEG,WS (L-eq),-8312.882385,-8576.163965,-8055.318624
+Other,Added sugar,VGN,WS (L-eq),-8314.710277,-8604.606718,-8046.711296
+Vegetables,Non-starchy vegetables,CDP,WS (L-eq),43435.16741,40719.57564,46242.08327
+Vegetables,Non-starchy vegetables,MED,WS (L-eq),43432.11308,40760.19497,46387.5497
+Vegetables,Non-starchy vegetables,HUS,WS (L-eq),43461.07817,40624.72636,46173.62816
+Vegetables,Non-starchy vegetables,VEG,WS (L-eq),43442.06397,40633.14257,46259.75552
+Vegetables,Non-starchy vegetables,VGN,WS (L-eq),43482.26259,40672.72846,46353.99919
+Vegetables,Starchy vegetables,CDP,WS (L-eq),12461.09863,12038.71946,12865.57331
+Vegetables,Starchy vegetables,MED,WS (L-eq),12472.87527,12059.03926,12875.73385
+Vegetables,Starchy vegetables,HUS,WS (L-eq),12464.48855,12067.69471,12840.12124
+Vegetables,Starchy vegetables,VEG,WS (L-eq),12476.38582,12080.62116,12866.91895
+Vegetables,Starchy vegetables,VGN,WS (L-eq),12458.12853,12041.6857,12867.15664
+Dairy,"Dairy, total",CDP,Food cost (USD),587.3793206,580.3417731,594.8232878
+Dairy,"Dairy, total",MED,Food cost (USD),225.2425722,217.9979097,232.7450035
+Dairy,"Dairy, total",HUS,Food cost (USD),587.5223553,580.1524222,595.0350655
+Dairy,"Dairy, total",VEG,Food cost (USD),587.6682601,580.0645548,595.5564385
+Dairy,"Dairy, total",VGN,Food cost (USD),-498.5732094,-506.194045,-490.4640826
+Fruit,Whole fruits,CDP,Food cost (USD),844.6431638,831.413283,856.6268056
+Fruit,Whole fruits,MED,Food cost (USD),793.1269296,780.046022,805.226955
+Fruit,Whole fruits,HUS,Food cost (USD),550.5940399,538.0496908,563.3446398
+Fruit,Whole fruits,VEG,Food cost (USD),550.8104716,538.0424195,562.4596201
+Fruit,Whole fruits,VGN,Food cost (USD),550.3921041,537.8278694,562.2976954
+Fruit,"Fruit juice, 100%",CDP,Food cost (USD),-52.14319529,-54.68948393,-49.70860816
+Fruit,"Fruit juice, 100%",MED,Food cost (USD),70.96281108,68.52249683,73.44143106
+Fruit,"Fruit juice, 100%",HUS,Food cost (USD),45.57965711,42.95720717,47.86618176
+Fruit,"Fruit juice, 100%",VEG,Food cost (USD),45.45237024,43.08079257,48.02732434
+Fruit,"Fruit juice, 100%",VGN,Food cost (USD),45.53395597,42.91923913,48.04628127
+Grains,Refined grains,CDP,Food cost (USD),-440.9381482,-450.1857523,-432.4558337
+Grains,Refined grains,MED,Food cost (USD),-360.6712777,-370.1183623,-351.2459253
+Grains,Refined grains,HUS,Food cost (USD),-360.7287481,-369.4108789,-351.1255639
+Grains,Refined grains,VEG,Food cost (USD),-360.6693184,-369.2423613,-351.5983083
+Grains,Refined grains,VGN,Food cost (USD),-360.7409884,-370.1087656,-351.7917947
+Grains,Whole grains,CDP,Food cost (USD),386.4076557,383.247335,389.8784151
+Grains,Whole grains,MED,Food cost (USD),313.2008923,309.7684905,316.606971
+Grains,Whole grains,HUS,Food cost (USD),313.1466972,309.8214173,316.4762097
+Grains,Whole grains,VEG,Food cost (USD),386.286409,383.3269337,389.5549821
+Grains,Whole grains,VGN,Food cost (USD),386.4752262,383.2680462,389.7929983
+Protein,Legumes,CDP,Food cost (USD),116.5465969,114.8594146,118.2648896
+Protein,Legumes,MED,Food cost (USD),38.75806377,37.16979943,40.48394581
+Protein,Legumes,HUS,Food cost (USD),38.7538804,37.05824957,40.45862705
+Protein,Legumes,VEG,Food cost (USD),220.5019878,218.7396632,222.22587
+Protein,Legumes,VGN,Food cost (USD),245.8234356,244.0441202,247.4441894
+Other,Oil,CDP,Food cost (USD),-1.77453129,-2.9292654,-0.664807078
+Other,Oil,MED,Food cost (USD),-1.788269464,-2.954016447,-0.5976795
+Other,Oil,HUS,Food cost (USD),-1.787351606,-2.936486323,-0.658205893
+Other,Oil,VEG,Food cost (USD),-1.773909147,-2.95046745,-0.576241935
+Other,Oil,VGN,Food cost (USD),-1.828831953,-2.997400495,-0.621102859
+Protein,Eggs,CDP,Food cost (USD),-280.074082,-300.3331478,-261.6226403
+Protein,Eggs,MED,Food cost (USD),-109.3910249,-129.0947175,-89.01659764
+Protein,Eggs,HUS,Food cost (USD),-109.3990889,-128.5393653,-90.57188142
+Protein,Eggs,VEG,Food cost (USD),-147.4435581,-167.1657679,-127.8020755
+Protein,Eggs,VGN,Food cost (USD),-465.2298446,-485.1487553,-444.9147763
+Protein,Nuts & seeds,CDP,Food cost (USD),30.27435441,27.93888491,32.75616833
+Protein,Nuts & seeds,MED,Food cost (USD),-3.175779226,-5.57174104,-0.823695193
+Protein,Nuts & seeds,HUS,Food cost (USD),-3.210907934,-5.509310391,-0.895643363
+Protein,Nuts & seeds,VEG,Food cost (USD),30.32095125,28.06740116,32.5544386
+Protein,Nuts & seeds,VGN,Food cost (USD),42.97713033,40.79731293,45.18480911
+Protein,Processed meats,CDP,Food cost (USD),-311.9888649,-320.3647586,-303.7740501
+Protein,Processed meats,MED,Food cost (USD),-62.87288823,-71.74353733,-55.01770383
+Protein,Processed meats,HUS,Food cost (USD),-62.92793273,-70.94081965,-54.96880215
+Protein,Processed meats,VEG,Food cost (USD),-312.5115511,-320.9227054,-304.3376927
+Protein,Processed meats,VGN,Food cost (USD),-312.320227,-320.4742425,-303.7410544
+Protein,Poultry,CDP,Food cost (USD),-190.8299356,-204.445602,-177.2102609
+Protein,Poultry,MED,Food cost (USD),-90.14154976,-104.9674445,-77.20870614
+Protein,Poultry,HUS,Food cost (USD),-90.20458867,-104.7805467,-76.09595225
+Protein,Poultry,VEG,Food cost (USD),-562.2659323,-575.712278,-548.405483
+Protein,Poultry,VGN,Food cost (USD),-563.5418648,-576.5653143,-550.3635403
+Protein,Red meats,CDP,Food cost (USD),-673.234266,-696.4682817,-649.031626
+Protein,Red meats,MED,Food cost (USD),-161.5629243,-185.9318525,-138.1463379
+Protein,Red meats,HUS,Food cost (USD),-160.9055188,-184.5681458,-137.3616218
+Protein,Red meats,VEG,Food cost (USD),-1033.828907,-1056.231426,-1010.388298
+Protein,Red meats,VGN,Food cost (USD),-1033.091019,-1056.88955,-1009.650554
+Protein,Seafood,CDP,Food cost (USD),431.2037862,408.4730343,454.5041648
+Protein,Seafood,MED,Food cost (USD),1451.39496,1429.220437,1472.106581
+Protein,Seafood,HUS,Food cost (USD),556.3381689,532.5927949,579.1128838
+Protein,Seafood,VEG,Food cost (USD),-463.0467515,-485.1156873,-440.8545321
+Protein,Seafood,VGN,Food cost (USD),-463.5006834,-487.2297768,-442.6000995
+Other,Saturated fat,CDP,Food cost (USD),-33.70464443,-34.27637143,-33.15285012
+Other,Saturated fat,MED,Food cost (USD),-35.27295414,-35.84566484,-34.69506704
+Other,Saturated fat,HUS,Food cost (USD),-35.30148737,-35.88685706,-34.71234462
+Other,Saturated fat,VEG,Food cost (USD),-33.73207289,-34.32657994,-33.16056565
+Other,Saturated fat,VGN,Food cost (USD),-33.71784401,-34.26291053,-33.13733315
+Other,Added sugar,CDP,Food cost (USD),-194.4323604,-200.7410342,-187.8644048
+Other,Added sugar,MED,Food cost (USD),-201.4337742,-207.5142994,-195.464871
+Other,Added sugar,HUS,Food cost (USD),-201.5786113,-207.4605878,-195.2265089
+Other,Added sugar,VEG,Food cost (USD),-194.0567343,-199.7882208,-187.9949408
+Other,Added sugar,VGN,Food cost (USD),-194.2039555,-200.4603354,-187.8230637
+Vegetables,Non-starchy vegetables,CDP,Food cost (USD),280.4144077,265.1359543,295.6785934
+Vegetables,Non-starchy vegetables,MED,Food cost (USD),280.4373884,265.3941724,296.6878709
+Vegetables,Non-starchy vegetables,HUS,Food cost (USD),280.5825852,265.0901725,296.380133
+Vegetables,Non-starchy vegetables,VEG,Food cost (USD),280.6742723,265.3834578,296.1863264
+Vegetables,Non-starchy vegetables,VGN,Food cost (USD),280.8684576,264.9111617,296.4539483
+Vegetables,Starchy vegetables,CDP,Food cost (USD),259.3493917,250.2931274,268.1120534
+Vegetables,Starchy vegetables,MED,Food cost (USD),259.5232812,251.338943,268.1574172
+Vegetables,Starchy vegetables,HUS,Food cost (USD),259.4133523,251.0355659,267.419188
+Vegetables,Starchy vegetables,VEG,Food cost (USD),259.8500442,251.1620005,268.243303
+Vegetables,Starchy vegetables,VGN,Food cost (USD),259.2676305,250.888984,267.8918383

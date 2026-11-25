@@ -1,0 +1,36 @@
+﻿Outcome,Diet Pattern,Percent Change,Percent Change (Lower Bound),Percent Change (Upper Bound)
+Cumulative energy demand (MJ),CDP,9.825531204,12.32154397,7.42785831
+Cumulative energy demand (MJ),MED,60.90487546,64.65298573,57.33490612
+Cumulative energy demand (MJ),HUS,33.93946221,37.00451107,30.91813001
+Cumulative energy demand (MJ),VEG,-28.31949535,-29.86406372,-26.66413557
+Cumulative energy demand (MJ),VGN,-54.98908194,-56.03568596,-53.95580968
+Cardiometabolic disease (deaths),CDP,-49.21189807,-50.67201144,-47.69985044
+Cardiometabolic disease (deaths),MED,-33.82127592,-35.16175116,-32.58756819
+Cardiometabolic disease (deaths),HUS,-31.28858016,-32.61469775,-30.04631987
+Cardiometabolic disease (deaths),VEG,-45.55154539,-46.94722098,-44.10626492
+Cardiometabolic disease (deaths),VGN,-45.55152967,-46.94722081,-44.10625624
+Cancer (cases),CDP,-7.959142882,-8.274927796,-7.675993965
+Cancer (cases),MED,-5.538219683,-5.83908085,-5.26381962
+Cancer (cases),HUS,-5.793439554,-6.081257875,-5.541032852
+Cancer (cases),VEG,-8.191594348,-8.502334537,-7.899944914
+Cancer (cases),VGN,-7.434882044,-7.751586443,-7.128161774
+Forced labor risk (mrh-eq),CDP,3.688942246,6.118072091,1.363474057
+Forced labor risk (mrh-eq),MED,38.28934915,41.59948111,35.13492642
+Forced labor risk (mrh-eq),HUS,26.03046155,28.9752105,23.1828171
+Forced labor risk (mrh-eq),VEG,-10.04415466,-12.02799871,-7.933188081
+Forced labor risk (mrh-eq),VGN,-5.435436851,-7.622989083,-3.203389316
+Food cost (USD),CDP,11.69656284,14.49236259,9.004971382
+Food cost (USD),MED,37.17850055,40.58659043,33.85669089
+Food cost (USD),HUS,24.81225914,27.94741037,21.81656722
+Food cost (USD),VEG,-11.55424083,-13.633728,-9.348752669
+Food cost (USD),VGN,-32.67987346,-34.3063384,-31.00196515
+Greenhouse gas emissions (kgCO2-eq),CDP,-24.80145518,-26.21641915,-23.36201845
+Greenhouse gas emissions (kgCO2-eq),MED,10.61965603,12.77255055,8.515497078
+Greenhouse gas emissions (kgCO2-eq),HUS,8.153387365,10.24112632,6.170332458
+Greenhouse gas emissions (kgCO2-eq),VEG,-44.32615986,-45.34735948,-43.25573119
+Greenhouse gas emissions (kgCO2-eq),VGN,-67.78921096,-68.3992141,-67.15626446
+Water scarcity (L-eq),CDP,12.29340715,15.00656525,9.654953693
+Water scarcity (L-eq),MED,33.44068828,36.756836,30.30202419
+Water scarcity (L-eq),HUS,26.49879195,29.55562619,23.54657577
+Water scarcity (L-eq),VEG,12.39808249,15.09406342,9.821969148
+Water scarcity (L-eq),VGN,2.560482264,5.053973389,0.146654871
