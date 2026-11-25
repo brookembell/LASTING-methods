@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 9 Convert RMD Files to R Files | LASTING Four-Pillar Model Methodology</title>
+  <meta name="description" content="This is the comprehensive manual that describes all data inputs and methods used for the 4-pillar LASTING model." />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 9 Convert RMD Files to R Files | LASTING Four-Pillar Model Methodology" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is the comprehensive manual that describes all data inputs and methods used for the 4-pillar LASTING model." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 9 Convert RMD Files to R Files | LASTING Four-Pillar Model Methodology" />
+  
+  <meta name="twitter:description" content="This is the comprehensive manual that describes all data inputs and methods used for the 4-pillar LASTING model." />
+  
+
+<meta name="author" content="Brooke M. Bell" />
+
+
+<meta name="date" content="2026-06-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="run-the-models.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">LASTING Methods Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#github-repository"><i class="fa fa-check"></i>Github Repository</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#data-inputs"><i class="fa fa-check"></i>Data Inputs</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#code"><i class="fa fa-check"></i>Code</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#model-output"><i class="fa fa-check"></i>Model Output</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html"><i class="fa fa-check"></i><b>1</b> Summary of Data Inputs</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a></li>
+<li class="chapter" data-level="1.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#diet-inputs"><i class="fa fa-check"></i><b>1.2</b> Diet Inputs</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#counterfactual-intake"><i class="fa fa-check"></i><b>1.2.1</b> Counterfactual Intake</a></li>
+<li class="chapter" data-level="1.2.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#dietary-intake"><i class="fa fa-check"></i><b>1.2.2</b> Dietary Intake</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#economic-inputs"><i class="fa fa-check"></i><b>1.3</b> Economic Inputs</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#food-cost"><i class="fa fa-check"></i><b>1.3.1</b> Food Cost</a></li>
+<li class="chapter" data-level="1.3.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#food-at-home-fah-vs.-food-away-from-home-fafh-ratio"><i class="fa fa-check"></i><b>1.3.2</b> Food-At-Home (FAH) vs. Food-Away-From-Home (FAFH) Ratio</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#environment-inputs"><i class="fa fa-check"></i><b>1.4</b> Environment Inputs</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#greenhouse-gas-emissions-ghg-and-cumulative-energy-demand-ced-impact-factors"><i class="fa fa-check"></i><b>1.4.1</b> Greenhouse Gas Emissions (GHG) and Cumulative Energy Demand (CED) Impact Factors</a></li>
+<li class="chapter" data-level="1.4.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#water-scarcity-ws-and-bluewater-use-bwu-impact-factors"><i class="fa fa-check"></i><b>1.4.2</b> Water Scarcity (WS) and Bluewater Use (BWU) Impact Factors</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#health-inputs"><i class="fa fa-check"></i><b>1.5</b> Health Inputs</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#cancer-incidence"><i class="fa fa-check"></i><b>1.5.1</b> Cancer Incidence</a></li>
+<li class="chapter" data-level="1.5.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#cardiometabolic-disease-cmd-mortality"><i class="fa fa-check"></i><b>1.5.2</b> Cardiometabolic Disease (CMD) Mortality</a></li>
+<li class="chapter" data-level="1.5.3" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#effect-sizes-for-diet-and-body-mass-index-bmi"><i class="fa fa-check"></i><b>1.5.3</b> Effect Sizes for Diet and Body Mass Index (BMI)</a></li>
+<li class="chapter" data-level="1.5.4" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#effect-sizes-for-diet-and-systolic-blood-pressure-sbp"><i class="fa fa-check"></i><b>1.5.4</b> Effect Sizes for Diet and Systolic Blood Pressure (SBP)</a></li>
+<li class="chapter" data-level="1.5.5" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#log-relative-risks-logrr-for-diet-cancer"><i class="fa fa-check"></i><b>1.5.5</b> Log Relative Risks (LogRR) for Diet-Cancer</a></li>
+<li class="chapter" data-level="1.5.6" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#overweight-prevalence"><i class="fa fa-check"></i><b>1.5.6</b> Overweight Prevalence</a></li>
+<li class="chapter" data-level="1.5.7" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#relative-risks-rr-for-bmi-and-cancer"><i class="fa fa-check"></i><b>1.5.7</b> Relative Risks (RR) for BMI and Cancer</a></li>
+<li class="chapter" data-level="1.5.8" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#relative-risks-rr-for-bmi-and-cmd"><i class="fa fa-check"></i><b>1.5.8</b> Relative Risks (RR) for BMI and CMD</a></li>
+<li class="chapter" data-level="1.5.9" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#relative-risks-rr-for-sbp-and-cmd"><i class="fa fa-check"></i><b>1.5.9</b> Relative Risks (RR) for SBP and CMD</a></li>
+<li class="chapter" data-level="1.5.10" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#systolic-blood-pressure"><i class="fa fa-check"></i><b>1.5.10</b> Systolic Blood Pressure</a></li>
+<li class="chapter" data-level="1.5.11" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#tmred"><i class="fa fa-check"></i><b>1.5.11</b> TMRED</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#social-inputs"><i class="fa fa-check"></i><b>1.6</b> Social Inputs</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#forced-labor-risk"><i class="fa fa-check"></i><b>1.6.1</b> Forced Labor Risk</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#other-inputs"><i class="fa fa-check"></i><b>1.7</b> Other Inputs</a>
+<ul>
+<li class="chapter" data-level="1.7.1" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#mapping-from-food-group-to-fcid-code"><i class="fa fa-check"></i><b>1.7.1</b> Mapping from Food Group to FCID Code</a></li>
+<li class="chapter" data-level="1.7.2" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#mapping-from-food-group-to-fndds-code"><i class="fa fa-check"></i><b>1.7.2</b> Mapping from Food Group to FNDDS Code</a></li>
+<li class="chapter" data-level="1.7.3" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#inedible-and-wasted-food-proportions"><i class="fa fa-check"></i><b>1.7.3</b> Inedible and Wasted Food Proportions</a></li>
+<li class="chapter" data-level="1.7.4" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#labels"><i class="fa fa-check"></i><b>1.7.4</b> Labels</a></li>
+<li class="chapter" data-level="1.7.5" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#weight-conversion-units"><i class="fa fa-check"></i><b>1.7.5</b> Weight Conversion Units</a></li>
+<li class="chapter" data-level="1.7.6" data-path="summary-of-data-inputs.html"><a href="summary-of-data-inputs.html#u.s.-population-size"><i class="fa fa-check"></i><b>1.7.6</b> U.S. Population Size</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html"><i class="fa fa-check"></i><b>2</b> Cleaning Code for NHANES Diet Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#processed-and-organ-meat"><i class="fa fa-check"></i><b>2.1</b> Processed and Organ Meat</a></li>
+<li class="chapter" data-level="2.2" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#id"><i class="fa fa-check"></i><b>2.2</b> Clean Raw NHANES Data</a></li>
+<li class="chapter" data-level="2.3" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#create-sugar-sweetened-beverage-ssb-variables"><i class="fa fa-check"></i><b>2.3</b> Create Sugar Sweetened Beverage (SSB) Variables</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#import-and-merge-data-inputs"><i class="fa fa-check"></i><b>2.3.1</b> Import and Merge Data Inputs</a></li>
+<li class="chapter" data-level="2.3.2" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#create-ssb-indicator-variable"><i class="fa fa-check"></i><b>2.3.2</b> Create SSB Indicator Variable</a></li>
+<li class="chapter" data-level="2.3.3" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#calculate-ssb-intake"><i class="fa fa-check"></i><b>2.3.3</b> Calculate SSB Intake</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#energy-adjustment"><i class="fa fa-check"></i><b>2.4</b> Energy Adjustment</a></li>
+<li class="chapter" data-level="2.5" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#sas-macro"><i class="fa fa-check"></i><b>2.5</b> Calculating Mean and Standard Deviation Using SAS Macros</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#prepare-nhanes-data-for-sas-macros"><i class="fa fa-check"></i><b>2.5.1</b> Prepare NHANES Data for SAS Macros</a></li>
+<li class="chapter" data-level="2.5.2" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#fill-out-macro-template"><i class="fa fa-check"></i><b>2.5.2</b> Fill Out Macro Template</a></li>
+<li class="chapter" data-level="2.5.3" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#log-in-to-tufts-hpc"><i class="fa fa-check"></i><b>2.5.3</b> Log In to Tufts HPC</a></li>
+<li class="chapter" data-level="2.5.4" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#run-sas-macro"><i class="fa fa-check"></i><b>2.5.4</b> Run SAS Macro</a></li>
+<li class="chapter" data-level="2.5.5" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#export-output-to-box"><i class="fa fa-check"></i><b>2.5.5</b> Export Output to Box</a></li>
+<li class="chapter" data-level="2.5.6" data-path="cleaning-code-for-nhanes-diet-data.html"><a href="cleaning-code-for-nhanes-diet-data.html#clean-output-from-cluster"><i class="fa fa-check"></i><b>2.5.6</b> Clean Output from Cluster</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html"><i class="fa fa-check"></i><b>3</b> Cleaning Code for Health Data</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#create-final-data-inputs"><i class="fa fa-check"></i><b>3.1</b> Create Final Data Inputs</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#other-data-inputs"><i class="fa fa-check"></i><b>3.1.1</b> Other Data Inputs</a></li>
+<li class="chapter" data-level="3.1.2" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#health-data-inputs"><i class="fa fa-check"></i><b>3.1.2</b> Health Data Inputs</a></li>
+<li class="chapter" data-level="3.1.3" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#diet-data-inputs"><i class="fa fa-check"></i><b>3.1.3</b> Diet Data Inputs</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#clean-health-datasets"><i class="fa fa-check"></i><b>3.2</b> Clean Health Datasets</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#cancer-incidence-and-2-cvd-mortality"><i class="fa fa-check"></i><b>3.2.1</b> (1) Cancer incidence and (2) CVD mortality</a></li>
+<li class="chapter" data-level="3.2.2" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#effect-sizes-for-diet-and-bmi-and-4-diet-and-sbp"><i class="fa fa-check"></i><b>3.2.2</b> (3) Effect sizes for diet and BMI and (4) diet and SBP</a></li>
+<li class="chapter" data-level="3.2.3" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#rrs-for-bmi-and-cancer-and-6-for-bmi-and-cvd"><i class="fa fa-check"></i><b>3.2.3</b> (5) RRs for BMI and cancer and (6) for BMI and CVD</a></li>
+<li class="chapter" data-level="3.2.4" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#logrrs-for-diet-and-cancer-and-8-for-diet-and-cvd"><i class="fa fa-check"></i><b>3.2.4</b> (7) LogRRs for diet and cancer and (8) for diet and CVD</a></li>
+<li class="chapter" data-level="3.2.5" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#rrs-for-sbp-and-cvd"><i class="fa fa-check"></i><b>3.2.5</b> (9) RRs for SBP and CVD</a></li>
+<li class="chapter" data-level="3.2.6" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#current-intake-nhanes-11-tmred-12-counterfactual-and-13-other-health-data"><i class="fa fa-check"></i><b>3.2.6</b> (10) Current intake (NHANES), (11) TMRED, (12) Counterfactual, and (13) Other health data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="cleaning-code-for-health-data.html"><a href="cleaning-code-for-health-data.html#restructure-data"><i class="fa fa-check"></i><b>3.3</b> Restructure data</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="cleaning-code-for-environment-data.html"><a href="cleaning-code-for-environment-data.html"><i class="fa fa-check"></i><b>4</b> Cleaning Code for Environment Data</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="cleaning-code-for-environment-data.html"><a href="cleaning-code-for-environment-data.html#clean-and-restructure-intermediary-datasets"><i class="fa fa-check"></i><b>4.1</b> Clean and Restructure Intermediary Datasets</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="cleaning-code-for-environment-data.html"><a href="cleaning-code-for-environment-data.html#import-and-merge-data-inputs-1"><i class="fa fa-check"></i><b>4.1.1</b> Import and Merge Data Inputs</a></li>
+<li class="chapter" data-level="4.1.2" data-path="cleaning-code-for-environment-data.html"><a href="cleaning-code-for-environment-data.html#calculate-average-environmental-and-social-impact-per-fcid-code"><i class="fa fa-check"></i><b>4.1.2</b> Calculate Average Environmental and Social Impact, Per FCID Code</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="cleaning-code-for-cost-data.html"><a href="cleaning-code-for-cost-data.html"><i class="fa fa-check"></i><b>5</b> Cleaning Code for Cost Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="cleaning-code-for-cost-data.html"><a href="cleaning-code-for-cost-data.html#clean-and-restructure-intermediary-datasets-1"><i class="fa fa-check"></i><b>5.1</b> Clean and Restructure Intermediary Datasets</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="cleaning-code-for-cost-data.html"><a href="cleaning-code-for-cost-data.html#import-and-merge-data-inputs-2"><i class="fa fa-check"></i><b>5.1.1</b> Import and Merge Data Inputs</a></li>
+<li class="chapter" data-level="5.1.2" data-path="cleaning-code-for-cost-data.html"><a href="cleaning-code-for-cost-data.html#calculate-average-food-cost-per-fndds-food-code"><i class="fa fa-check"></i><b>5.1.2</b> Calculate Average Food Cost, Per FNDDS Food Code</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html"><i class="fa fa-check"></i><b>6</b> Calculate Cost, Environment, and Social Impact Factors</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#prepare-data"><i class="fa fa-check"></i><b>6.1</b> Prepare Data</a></li>
+<li class="chapter" data-level="6.2" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#cost-impact-factors"><i class="fa fa-check"></i><b>6.2</b> Cost Impact Factors</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#cost-impact-factors-by-food-by-subgroup"><i class="fa fa-check"></i><b>6.2.1</b> Cost Impact Factors, by Food, by Subgroup</a></li>
+<li class="chapter" data-level="6.2.2" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#cost-impact-factors-per-100-grams-and-per-1-dga-serving"><i class="fa fa-check"></i><b>6.2.2</b> Cost Impact Factors, Per 100 Grams and Per 1 DGA Serving</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#environmental-social-impact-factors"><i class="fa fa-check"></i><b>6.3</b> Environmental &amp; Social Impact Factors</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#environmental-social-impact-factors-by-food-by-subgroup"><i class="fa fa-check"></i><b>6.3.1</b> Environmental &amp; Social Impact Factors, by Food, by Subgroup</a></li>
+<li class="chapter" data-level="6.3.2" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#environmentsocial-impact-factors-per-100-grams-and-per-1-dga-serving"><i class="fa fa-check"></i><b>6.3.2</b> Environment/Social Impact Factors, Per 100 Grams and Per 1 DGA Serving</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#finalize-impact-factors"><i class="fa fa-check"></i><b>6.4</b> Finalize Impact Factors</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#merge-cost-environment-and-social-impact-factors"><i class="fa fa-check"></i><b>6.4.1</b> Merge Cost, Environment, and Social Impact Factors</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#calculate-inedible-and-wasted-proportions"><i class="fa fa-check"></i><b>6.5</b> Calculate Inedible and Wasted Proportions</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#environmentsocial"><i class="fa fa-check"></i><b>6.5.1</b> Environment/Social</a></li>
+<li class="chapter" data-level="6.5.2" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#cost"><i class="fa fa-check"></i><b>6.5.2</b> Cost</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="calculate-cost-environment-and-social-impact-factors.html"><a href="calculate-cost-environment-and-social-impact-factors.html#export-data"><i class="fa fa-check"></i><b>6.6</b> Export Data</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="finalize-model-data-inputs.html"><a href="finalize-model-data-inputs.html"><i class="fa fa-check"></i><b>7</b> Finalize Model Data Inputs</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="finalize-model-data-inputs.html"><a href="finalize-model-data-inputs.html#clean-and-merge-all-inputs"><i class="fa fa-check"></i><b>7.1</b> Clean and Merge All Inputs</a></li>
+<li class="chapter" data-level="7.2" data-path="finalize-model-data-inputs.html"><a href="finalize-model-data-inputs.html#copy-model-inputs-to-github"><i class="fa fa-check"></i><b>7.2</b> Copy Model Inputs to GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="run-the-models.html"><a href="run-the-models.html"><i class="fa fa-check"></i><b>8</b> Run the Models</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="run-the-models.html"><a href="run-the-models.html#set-up"><i class="fa fa-check"></i><b>8.1</b> Set up</a></li>
+<li class="chapter" data-level="8.2" data-path="run-the-models.html"><a href="run-the-models.html#environmental-economic-and-social-env-eco-soc-models"><i class="fa fa-check"></i><b>8.2</b> Environmental, Economic, and Social (“env-eco-soc”) Models</a></li>
+<li class="chapter" data-level="8.3" data-path="run-the-models.html"><a href="run-the-models.html#health-models"><i class="fa fa-check"></i><b>8.3</b> Health Models</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="convert-rmd-files-to-r-files.html"><a href="convert-rmd-files-to-r-files.html"><i class="fa fa-check"></i><b>9</b> Convert RMD Files to R Files</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">LASTING Four-Pillar Model Methodology</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="convert-rmd-files-to-r-files" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">Chapter 9</span> Convert RMD Files to R Files<a href="convert-rmd-files-to-r-files.html#convert-rmd-files-to-r-files" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The final step is to convert all of the Rmd files to R files so that you can run on the cluster.</p>
+<div class="sourceCode" id="cb275"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb275-1"><a href="convert-rmd-files-to-r-files.html#cb275-1" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb275-2"><a href="convert-rmd-files-to-r-files.html#cb275-2" tabindex="-1"></a></span>
+<span id="cb275-3"><a href="convert-rmd-files-to-r-files.html#cb275-3" tabindex="-1"></a><span class="co"># start with 02 since 01 is just text</span></span>
+<span id="cb275-4"><a href="convert-rmd-files-to-r-files.html#cb275-4" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;02-cleaning-code-diet.Rmd&quot;</span>,</span>
+<span id="cb275-5"><a href="convert-rmd-files-to-r-files.html#cb275-5" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;02-cleaning-code-diet.R&quot;</span>),</span>
+<span id="cb275-6"><a href="convert-rmd-files-to-r-files.html#cb275-6" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-7"><a href="convert-rmd-files-to-r-files.html#cb275-7" tabindex="-1"></a></span>
+<span id="cb275-8"><a href="convert-rmd-files-to-r-files.html#cb275-8" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;03-cleaning-code-health.Rmd&quot;</span>,</span>
+<span id="cb275-9"><a href="convert-rmd-files-to-r-files.html#cb275-9" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;03-cleaning-code-health.R&quot;</span>),</span>
+<span id="cb275-10"><a href="convert-rmd-files-to-r-files.html#cb275-10" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-11"><a href="convert-rmd-files-to-r-files.html#cb275-11" tabindex="-1"></a></span>
+<span id="cb275-12"><a href="convert-rmd-files-to-r-files.html#cb275-12" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;04-cleaning-code-enviro.Rmd&quot;</span>,</span>
+<span id="cb275-13"><a href="convert-rmd-files-to-r-files.html#cb275-13" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;04-cleaning-code-enviro.R&quot;</span>),</span>
+<span id="cb275-14"><a href="convert-rmd-files-to-r-files.html#cb275-14" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-15"><a href="convert-rmd-files-to-r-files.html#cb275-15" tabindex="-1"></a></span>
+<span id="cb275-16"><a href="convert-rmd-files-to-r-files.html#cb275-16" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;05-cleaning-code-cost.Rmd&quot;</span>,</span>
+<span id="cb275-17"><a href="convert-rmd-files-to-r-files.html#cb275-17" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;05-cleaning-code-cost.R&quot;</span>),</span>
+<span id="cb275-18"><a href="convert-rmd-files-to-r-files.html#cb275-18" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-19"><a href="convert-rmd-files-to-r-files.html#cb275-19" tabindex="-1"></a></span>
+<span id="cb275-20"><a href="convert-rmd-files-to-r-files.html#cb275-20" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;05-cleaning-code-cost.Rmd&quot;</span>,</span>
+<span id="cb275-21"><a href="convert-rmd-files-to-r-files.html#cb275-21" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;05-cleaning-code-cost.R&quot;</span>),</span>
+<span id="cb275-22"><a href="convert-rmd-files-to-r-files.html#cb275-22" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-23"><a href="convert-rmd-files-to-r-files.html#cb275-23" tabindex="-1"></a></span>
+<span id="cb275-24"><a href="convert-rmd-files-to-r-files.html#cb275-24" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;06-calculate-impact-factors.Rmd&quot;</span>,</span>
+<span id="cb275-25"><a href="convert-rmd-files-to-r-files.html#cb275-25" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;06-calculate-impact-factors.R&quot;</span>),</span>
+<span id="cb275-26"><a href="convert-rmd-files-to-r-files.html#cb275-26" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-27"><a href="convert-rmd-files-to-r-files.html#cb275-27" tabindex="-1"></a></span>
+<span id="cb275-28"><a href="convert-rmd-files-to-r-files.html#cb275-28" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;07-finalize-inputs.Rmd&quot;</span>,</span>
+<span id="cb275-29"><a href="convert-rmd-files-to-r-files.html#cb275-29" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;07-finalize-inputs.R&quot;</span>),</span>
+<span id="cb275-30"><a href="convert-rmd-files-to-r-files.html#cb275-30" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span>
+<span id="cb275-31"><a href="convert-rmd-files-to-r-files.html#cb275-31" tabindex="-1"></a></span>
+<span id="cb275-32"><a href="convert-rmd-files-to-r-files.html#cb275-32" tabindex="-1"></a><span class="fu">purl</span>(<span class="at">input =</span> <span class="st">&quot;08-run-models.Rmd&quot;</span>,</span>
+<span id="cb275-33"><a href="convert-rmd-files-to-r-files.html#cb275-33" tabindex="-1"></a>     <span class="at">output =</span> <span class="fu">paste0</span>(code_location, <span class="st">&quot;08-run-models.R&quot;</span>),</span>
+<span id="cb275-34"><a href="convert-rmd-files-to-r-files.html#cb275-34" tabindex="-1"></a>     <span class="at">documentation =</span> <span class="dv">2</span>)</span></code></pre></div>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="run-the-models.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/09-convert-rmd-to-r.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
